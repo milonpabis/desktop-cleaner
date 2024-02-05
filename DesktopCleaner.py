@@ -1,5 +1,4 @@
 import os
-import shutil
 import winshell
 
 BACK_UP_PATH = "F:/Desktop/BackUp/"
@@ -38,7 +37,7 @@ class DesktopCleaner:
                     dotIndex = str(file).index(".")
                     extension = file[dotIndex+1:]
                     if extension == ext:
-                        os.remove(self.__path + file)
+                        winshell.delete_file(self.__path + file, no_confirm=True)
                         self.__last_deleted.append(self.__path + file)
             except Exception:
                 print("It's a directory!")
@@ -49,21 +48,17 @@ class DesktopCleaner:
             return
         files = os.listdir(self.__path)
         for file in files:
-            if os.path.isdir(self.__path + file):
-                shutil.rmtree(self.__path + file)
-            else:
-                os.remove(self.__path + file)
+            winshell.delete_file(self.__path + file, no_confirm=True)
             self.__last_deleted.append(self.__path + file)
 
     def go_back(self):
         items = list(winshell.recycle_bin())
-        print(items)
-        for item in self.__last_deleted:
-            winshell.undelete(item)
+        for item in items:
+            winshell.undelete(item.original_filename())
 
-    # save files somewhere and delete permamently only when there was no "goback" function called between operations
-            # therefore have to create some type of history of operations
-                # and create a location to save temp files to
+    # TODO:
+            # - add a method to remove all files with a given extension recursively
+            # - add a go_back option to restore files that had been put into directories
         
 
 
@@ -77,24 +72,6 @@ class DesktopCleaner:
             self.__path = path
         else:
             raise Exception("Path does not exist")
-        
-
-    # TOO SLOW AND TAKES A LOT OF SPACE 
-    def __back_up(self):
-        if not os.path.exists(self.__bu_path):
-            os.makedirs(self.__bu_path)
-        for file in os.listdir(self.__bu_path):
-            if os.path.isdir(self.__bu_path + file):
-                shutil.rmtree(self.__bu_path + file)
-            else:
-                os.remove(self.__bu_path + file)
-        files = os.listdir(self.__path)
-        for file in files:
-            print(file)
-            if os.path.isdir(self.__path + file):
-                shutil.copytree(self.__path + file, self.__bu_path + file)
-            else:
-                shutil.copy(self.__path + file, self.__bu_path + file)
         
     
 

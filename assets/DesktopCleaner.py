@@ -57,12 +57,9 @@ class DesktopCleaner:
         self.__last_operation = "remove"
 
 
-    def remove_all(self):
+    def remove_all(self):    # removing all files from the directory, but not going into its subdirectories
         self.__empty_recycle_bin()
         self.__last_deleted = []
-
-        if input("Are you sure? (Y/n): ") != "Y":
-            return
         
         files = os.listdir(self.__path)     # moving all files to the recycle bin
         for file in files:
@@ -84,7 +81,7 @@ class DesktopCleaner:
     # TODO:
             # - add a go_back option to restore files that had been put into directories
 
-    def remove_recursive(self, ext):
+    def remove_recursive(self, ext):        # removing files from the directory and its subdirectories
         self.__empty_recycle_bin()
         queue = [self.__path]
 
@@ -111,6 +108,8 @@ class DesktopCleaner:
     @path.setter
     def path(self, path):
         if os.path.exists(path):
+            if path[-1] not in ("/", "\\"):
+                path += "/"
             self.__path = path
         else:
             raise Exception("Path does not exist")

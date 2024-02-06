@@ -17,8 +17,9 @@ from PySide6.QtGui import (QAction, QBrush, QColor, QConicalGradient,
     QPainter, QPalette, QPixmap, QRadialGradient,
     QTransform)
 from PySide6.QtWidgets import (QApplication, QFrame, QGroupBox, QHBoxLayout,
-    QHeaderView, QLineEdit, QMainWindow, QPushButton,
-    QSizePolicy, QTreeView, QVBoxLayout, QWidget)
+    QHeaderView, QLabel, QLineEdit, QMainWindow,
+    QPushButton, QSizePolicy, QTreeView, QVBoxLayout,
+    QWidget)
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -28,9 +29,6 @@ class Ui_MainWindow(object):
         MainWindow.resize(1150, 700)
         MainWindow.setMinimumSize(QSize(1150, 700))
         MainWindow.setMaximumSize(QSize(1150, 700))
-        MainWindow.setStyleSheet(u"QMainWindow {\n"
-"background-image: url(\"C:/Users/Milon/Downloads/galaxy_bg.jpg\");\n"
-"}")
         self.actionInfo = QAction(MainWindow)
         self.actionInfo.setObjectName(u"actionInfo")
         self.actionUndo = QAction(MainWindow)
@@ -51,6 +49,28 @@ class Ui_MainWindow(object):
         self.frame_3.setMaximumSize(QSize(16777215, 50))
         self.frame_3.setFrameShape(QFrame.NoFrame)
         self.frame_3.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_8 = QHBoxLayout(self.frame_3)
+        self.horizontalLayout_8.setSpacing(0)
+        self.horizontalLayout_8.setObjectName(u"horizontalLayout_8")
+        self.horizontalLayout_8.setContentsMargins(0, 0, 0, 0)
+        self.lPath = QLabel(self.frame_3)
+        self.lPath.setObjectName(u"lPath")
+        self.lPath.setMinimumSize(QSize(300, 40))
+        self.lPath.setMaximumSize(QSize(1123, 40))
+        self.lPath.setSizeIncrement(QSize(0, 0))
+        self.lPath.setBaseSize(QSize(300, 40))
+        font = QFont()
+        font.setFamilies([u"Tw Cen MT Condensed Extra Bold"])
+        font.setPointSize(16)
+        self.lPath.setFont(font)
+        self.lPath.setStyleSheet(u"background-color: rgba(192, 198, 223, 90);\n"
+"color: rgb(255, 255, 255);")
+        self.lPath.setScaledContents(False)
+        self.lPath.setAlignment(Qt.AlignCenter)
+        self.lPath.setWordWrap(True)
+
+        self.horizontalLayout_8.addWidget(self.lPath)
+
 
         self.verticalLayout.addWidget(self.frame_3)
 
@@ -62,10 +82,10 @@ class Ui_MainWindow(object):
         self.horizontalLayout.setObjectName(u"horizontalLayout")
         self.groupBox_4 = QGroupBox(self.frame)
         self.groupBox_4.setObjectName(u"groupBox_4")
-        font = QFont()
-        font.setFamilies([u"Tw Cen MT Condensed Extra Bold"])
-        font.setPointSize(10)
-        self.groupBox_4.setFont(font)
+        font1 = QFont()
+        font1.setFamilies([u"Tw Cen MT Condensed Extra Bold"])
+        font1.setPointSize(10)
+        self.groupBox_4.setFont(font1)
         self.groupBox_4.setStyleSheet(u"QGroupBox {\n"
 "	color: white;\n"
 "	background-color: rgba(182, 57, 255, 80);\n"
@@ -84,7 +104,7 @@ class Ui_MainWindow(object):
 
         self.groupBox_5 = QGroupBox(self.frame)
         self.groupBox_5.setObjectName(u"groupBox_5")
-        self.groupBox_5.setFont(font)
+        self.groupBox_5.setFont(font1)
         self.groupBox_5.setStyleSheet(u"QGroupBox {\n"
 "	color: white;\n"
 "	background-color: rgba(182, 57, 255, 80);\n"
@@ -117,7 +137,7 @@ class Ui_MainWindow(object):
         self.groupBox_2.setObjectName(u"groupBox_2")
         self.groupBox_2.setMinimumSize(QSize(350, 0))
         self.groupBox_2.setMaximumSize(QSize(250, 16777215))
-        self.groupBox_2.setFont(font)
+        self.groupBox_2.setFont(font1)
         self.groupBox_2.setStyleSheet(u"QGroupBox {\n"
 "	color: white;\n"
 "	background-color: rgba(182, 57, 255, 80);\n"
@@ -156,7 +176,7 @@ class Ui_MainWindow(object):
         self.btRemove.setObjectName(u"btRemove")
         self.btRemove.setMinimumSize(QSize(0, 30))
         self.btRemove.setMaximumSize(QSize(16777215, 30))
-        self.btRemove.setFont(font)
+        self.btRemove.setFont(font1)
         self.btRemove.setStyleSheet(u"QPushButton {\n"
 "background-color: rgba(234, 220, 255, 190);\n"
 "border-radius: 5px;\n"
@@ -176,7 +196,7 @@ class Ui_MainWindow(object):
         self.btRemoveAll.setObjectName(u"btRemoveAll")
         self.btRemoveAll.setMinimumSize(QSize(80, 30))
         self.btRemoveAll.setMaximumSize(QSize(80, 30))
-        self.btRemoveAll.setFont(font)
+        self.btRemoveAll.setFont(font1)
         self.btRemoveAll.setStyleSheet(u"QPushButton {\n"
 "background-color: rgba(234, 220, 255, 190);\n"
 "border-radius: 5px;\n"
@@ -199,7 +219,7 @@ class Ui_MainWindow(object):
 
         self.groupBox_3 = QGroupBox(self.frame_2)
         self.groupBox_3.setObjectName(u"groupBox_3")
-        self.groupBox_3.setFont(font)
+        self.groupBox_3.setFont(font1)
         self.groupBox_3.setStyleSheet(u"QGroupBox {\n"
 "	color: white;\n"
 "	background-color: rgba(182, 57, 255, 80);\n"
@@ -212,7 +232,7 @@ class Ui_MainWindow(object):
         self.btOrganize.setObjectName(u"btOrganize")
         self.btOrganize.setMinimumSize(QSize(100, 30))
         self.btOrganize.setMaximumSize(QSize(100, 30))
-        self.btOrganize.setFont(font)
+        self.btOrganize.setFont(font1)
         self.btOrganize.setStyleSheet(u"QPushButton {\n"
 "background-color: rgba(234, 220, 255, 190);\n"
 "border-radius: 5px;\n"
@@ -234,7 +254,7 @@ class Ui_MainWindow(object):
         self.groupBox.setObjectName(u"groupBox")
         self.groupBox.setMinimumSize(QSize(350, 0))
         self.groupBox.setMaximumSize(QSize(250, 16777215))
-        self.groupBox.setFont(font)
+        self.groupBox.setFont(font1)
         self.groupBox.setStyleSheet(u"QGroupBox {\n"
 "	color: white;\n"
 "	background-color: rgba(182, 57, 255, 80);\n"
@@ -247,7 +267,7 @@ class Ui_MainWindow(object):
         self.btUndo.setObjectName(u"btUndo")
         self.btUndo.setMinimumSize(QSize(100, 30))
         self.btUndo.setMaximumSize(QSize(100, 30))
-        self.btUndo.setFont(font)
+        self.btUndo.setFont(font1)
         self.btUndo.setStyleSheet(u"QPushButton {\n"
 "background-color: rgba(234, 220, 255, 190);\n"
 "border-radius: 5px;\n"
@@ -281,6 +301,7 @@ class Ui_MainWindow(object):
         self.actionUndo.setText(QCoreApplication.translate("MainWindow", u"Undo", None))
         self.actionDirectory.setText(QCoreApplication.translate("MainWindow", u"Directory", None))
         self.actionVersion.setText(QCoreApplication.translate("MainWindow", u"Version", None))
+        self.lPath.setText(QCoreApplication.translate("MainWindow", u"F:/Desktop/", None))
         self.groupBox_4.setTitle(QCoreApplication.translate("MainWindow", u"Folders", None))
         self.treeView.setStyleSheet(QCoreApplication.translate("MainWindow", u"background-color: rgba(192, 198, 223, 90);", None))
         self.groupBox_5.setTitle(QCoreApplication.translate("MainWindow", u"Preview", None))

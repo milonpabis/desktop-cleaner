@@ -15,3 +15,4 @@ if __name__ == "__main__":
         window = View()
         window.show()
         app.exec()
+        

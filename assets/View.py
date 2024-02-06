@@ -1,6 +1,7 @@
 from UI.MainWindow import Ui_MainWindow
 from PySide6.QtWidgets import QMainWindow, QApplication, QFileSystemModel
 from PySide6.QtCore import QDir
+import os
 class View(QMainWindow, Ui_MainWindow):
 
     def __init__(self):
@@ -13,6 +14,8 @@ class View(QMainWindow, Ui_MainWindow):
         self.btOrganize.clicked.connect(self.organize_pressed)
         self.btRemove.clicked.connect(self.remove_pressed)
         self.btRemoveAll.clicked.connect(self.remove_all_pressed)
+        self.expand_tree()
+        
 
 
     def setup_tree(self, view, path=""):
@@ -33,6 +36,13 @@ class View(QMainWindow, Ui_MainWindow):
         path = self.treeView.model().filePath(index)
         self.setup_tree(self.treeView_2, path)
         print(path)
+
+    def expand_tree(self):
+        desktop_path = os.path.join(os.path.expanduser("~"), "Desktop")
+        desktop_index = self.treeView.model().index(desktop_path)
+        if desktop_index.isValid():
+            self.treeView.setCurrentIndex(desktop_index)
+            self.show_selected()
 
     def undo_pressed(self):
         print("undo")

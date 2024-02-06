@@ -2,28 +2,36 @@
 <ui version="4.0">
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>1150</width>
+    <height>700</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
-    <width>800</width>
-    <height>600</height>
+    <width>1150</width>
+    <height>700</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
-    <width>800</width>
-    <height>600</height>
+    <width>1150</width>
+    <height>700</height>
    </size>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow {
+background-image: url(&quot;C:/Users/Milon/Downloads/galaxy_bg.jpg&quot;);
+}</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout">
@@ -47,13 +55,13 @@
       <property name="minimumSize">
        <size>
         <width>0</width>
-        <height>150</height>
+        <height>50</height>
        </size>
       </property>
       <property name="maximumSize">
        <size>
         <width>16777215</width>
-        <height>150</height>
+        <height>50</height>
        </size>
       </property>
       <property name="frameShape">
@@ -75,6 +83,19 @@
       <layout class="QHBoxLayout" name="horizontalLayout">
        <item>
         <widget class="QGroupBox" name="groupBox_4">
+         <property name="font">
+          <font>
+           <family>Tw Cen MT Condensed Extra Bold</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QGroupBox {
+	color: white;
+	background-color: rgba(182, 57, 255, 80);
+	
+}</string>
+         </property>
          <property name="title">
           <string>Folders</string>
          </property>
@@ -83,13 +104,30 @@
          </property>
          <layout class="QHBoxLayout" name="horizontalLayout_6">
           <item>
-           <widget class="QTreeView" name="treeView"/>
+           <widget class="QTreeView" name="treeView">
+            <property name="styleSheet">
+             <string>background-color: rgba(192, 198, 223, 90);</string>
+            </property>
+           </widget>
           </item>
          </layout>
         </widget>
        </item>
        <item>
         <widget class="QGroupBox" name="groupBox_5">
+         <property name="font">
+          <font>
+           <family>Tw Cen MT Condensed Extra Bold</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QGroupBox {
+	color: white;
+	background-color: rgba(182, 57, 255, 80);
+	
+}</string>
+         </property>
          <property name="title">
           <string>Preview</string>
          </property>
@@ -98,7 +136,11 @@
          </property>
          <layout class="QHBoxLayout" name="horizontalLayout_7">
           <item>
-           <widget class="QTreeView" name="treeView_2"/>
+           <widget class="QTreeView" name="treeView_2">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgba(192, 198, 223, 90);</string>
+            </property>
+           </widget>
           </item>
          </layout>
         </widget>
@@ -131,7 +173,7 @@
         <widget class="QGroupBox" name="groupBox_2">
          <property name="minimumSize">
           <size>
-           <width>250</width>
+           <width>350</width>
            <height>0</height>
           </size>
          </property>
@@ -140,6 +182,19 @@
            <width>250</width>
            <height>16777215</height>
           </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Tw Cen MT Condensed Extra Bold</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QGroupBox {
+	color: white;
+	background-color: rgba(182, 57, 255, 80);
+	
+}</string>
          </property>
          <property name="title">
           <string>Remove files</string>
@@ -166,7 +221,7 @@
           <item>
            <widget class="QFrame" name="frame_6">
             <property name="frameShape">
-             <enum>QFrame::StyledPanel</enum>
+             <enum>QFrame::NoFrame</enum>
             </property>
             <property name="frameShadow">
              <enum>QFrame::Raised</enum>
@@ -180,6 +235,11 @@
                  <height>35</height>
                 </size>
                </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgba(234, 220, 255, 190);
+border-radius: 5px;
+border: 1px solid rgba(182, 57, 255, 80);</string>
+               </property>
                <property name="placeholderText">
                 <string>ex. jpg,png,zip</string>
                </property>
@@ -191,7 +251,7 @@
           <item>
            <widget class="QFrame" name="frame_5">
             <property name="frameShape">
-             <enum>QFrame::StyledPanel</enum>
+             <enum>QFrame::NoFrame</enum>
             </property>
             <property name="frameShadow">
              <enum>QFrame::Raised</enum>
@@ -199,6 +259,38 @@
             <layout class="QHBoxLayout" name="horizontalLayout_3">
              <item>
               <widget class="QPushButton" name="btRemove">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Tw Cen MT Condensed Extra Bold</family>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+background-color: rgba(234, 220, 255, 190);
+border-radius: 5px;
+border: 1px solid rgba(182, 57, 255, 80);
+}
+
+QPushButton:hover {
+background-color: rgba(220, 220, 255, 190);
+border-radius: 6px;
+border: 1px solid rgba(182, 57, 255, 80);
+}
+</string>
+               </property>
                <property name="text">
                 <string>Remove extensions</string>
                </property>
@@ -209,14 +301,33 @@
                <property name="minimumSize">
                 <size>
                  <width>80</width>
-                 <height>0</height>
+                 <height>30</height>
                 </size>
                </property>
                <property name="maximumSize">
                 <size>
                  <width>80</width>
-                 <height>16777215</height>
+                 <height>30</height>
                 </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Tw Cen MT Condensed Extra Bold</family>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+background-color: rgba(234, 220, 255, 190);
+border-radius: 5px;
+border: 1px solid rgba(182, 57, 255, 80);
+}
+
+QPushButton:hover {
+background-color: rgba(220, 220, 255, 190);
+border-radius: 6px;
+border: 1px solid rgba(182, 57, 255, 80);
+}</string>
                </property>
                <property name="text">
                 <string>Remove all</string>
@@ -231,6 +342,19 @@
        </item>
        <item>
         <widget class="QGroupBox" name="groupBox_3">
+         <property name="font">
+          <font>
+           <family>Tw Cen MT Condensed Extra Bold</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QGroupBox {
+	color: white;
+	background-color: rgba(182, 57, 255, 80);
+	
+}</string>
+         </property>
          <property name="title">
           <string>Organize folders</string>
          </property>
@@ -252,6 +376,25 @@
               <height>30</height>
              </size>
             </property>
+            <property name="font">
+             <font>
+              <family>Tw Cen MT Condensed Extra Bold</family>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+background-color: rgba(234, 220, 255, 190);
+border-radius: 5px;
+border: 1px solid rgba(182, 57, 255, 80);
+}
+
+QPushButton:hover {
+background-color: rgba(220, 220, 255, 190);
+border-radius: 6px;
+border: 1px solid rgba(182, 57, 255, 80);
+}</string>
+            </property>
             <property name="text">
              <string>Organize</string>
             </property>
@@ -264,7 +407,7 @@
         <widget class="QGroupBox" name="groupBox">
          <property name="minimumSize">
           <size>
-           <width>250</width>
+           <width>350</width>
            <height>0</height>
           </size>
          </property>
@@ -273,6 +416,19 @@
            <width>250</width>
            <height>16777215</height>
           </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Tw Cen MT Condensed Extra Bold</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QGroupBox {
+	color: white;
+	background-color: rgba(182, 57, 255, 80);
+	
+}</string>
          </property>
          <property name="title">
           <string>Undo operations</string>
@@ -295,6 +451,25 @@
               <height>30</height>
              </size>
             </property>
+            <property name="font">
+             <font>
+              <family>Tw Cen MT Condensed Extra Bold</family>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+background-color: rgba(234, 220, 255, 190);
+border-radius: 5px;
+border: 1px solid rgba(182, 57, 255, 80);
+}
+
+QPushButton:hover {
+background-color: rgba(220, 220, 255, 190);
+border-radius: 6px;
+border: 1px solid rgba(182, 57, 255, 80);
+}</string>
+            </property>
             <property name="text">
              <string>Undo</string>
             </property>
@@ -307,33 +482,6 @@
      </widget>
     </item>
    </layout>
-  </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>800</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <widget class="QMenu" name="menuMenu">
-    <property name="title">
-     <string>Menu</string>
-    </property>
-    <addaction name="separator"/>
-    <addaction name="actionInfo"/>
-    <addaction name="actionUndo"/>
-    <addaction name="actionDirectory"/>
-   </widget>
-   <widget class="QMenu" name="menuVersion">
-    <property name="title">
-     <string>Version</string>
-    </property>
-    <addaction name="actionVersion"/>
-   </widget>
-   <addaction name="menuMenu"/>
-   <addaction name="menuVersion"/>
   </widget>
   <action name="actionInfo">
    <property name="text">

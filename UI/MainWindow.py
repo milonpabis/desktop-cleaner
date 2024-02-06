@@ -16,16 +16,21 @@ from PySide6.QtGui import (QAction, QBrush, QColor, QConicalGradient,
     QIcon, QImage, QKeySequence, QLinearGradient,
     QPainter, QPalette, QPixmap, QRadialGradient,
     QTransform)
-from PySide6.QtWidgets import (QApplication, QFrame, QHBoxLayout, QHeaderView,
-    QListView, QMainWindow, QMenu, QMenuBar,
-    QSizePolicy, QTreeWidget, QTreeWidgetItem, QVBoxLayout,
-    QWidget)
+from PySide6.QtWidgets import (QApplication, QFrame, QGroupBox, QHBoxLayout,
+    QHeaderView, QLineEdit, QMainWindow, QPushButton,
+    QSizePolicy, QTreeView, QVBoxLayout, QWidget)
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
-        MainWindow.resize(800, 600)
+        MainWindow.setEnabled(True)
+        MainWindow.resize(1150, 700)
+        MainWindow.setMinimumSize(QSize(1150, 700))
+        MainWindow.setMaximumSize(QSize(1150, 700))
+        MainWindow.setStyleSheet(u"QMainWindow {\n"
+"background-image: url(\"C:/Users/Milon/Downloads/galaxy_bg.jpg\");\n"
+"}")
         self.actionInfo = QAction(MainWindow)
         self.actionInfo.setObjectName(u"actionInfo")
         self.actionUndo = QAction(MainWindow)
@@ -42,8 +47,8 @@ class Ui_MainWindow(object):
         self.verticalLayout.setContentsMargins(0, 0, 0, 0)
         self.frame_3 = QFrame(self.centralwidget)
         self.frame_3.setObjectName(u"frame_3")
-        self.frame_3.setMinimumSize(QSize(0, 150))
-        self.frame_3.setMaximumSize(QSize(16777215, 150))
+        self.frame_3.setMinimumSize(QSize(0, 50))
+        self.frame_3.setMaximumSize(QSize(16777215, 50))
         self.frame_3.setFrameShape(QFrame.NoFrame)
         self.frame_3.setFrameShadow(QFrame.Raised)
 
@@ -54,50 +59,48 @@ class Ui_MainWindow(object):
         self.frame.setFrameShape(QFrame.NoFrame)
         self.frame.setFrameShadow(QFrame.Raised)
         self.horizontalLayout = QHBoxLayout(self.frame)
-        self.horizontalLayout.setSpacing(0)
         self.horizontalLayout.setObjectName(u"horizontalLayout")
-        self.horizontalLayout.setContentsMargins(0, 0, 0, 0)
-        self.frame_4 = QFrame(self.frame)
-        self.frame_4.setObjectName(u"frame_4")
-        self.frame_4.setMinimumSize(QSize(400, 0))
-        self.frame_4.setMaximumSize(QSize(400, 16777215))
-        self.frame_4.setFrameShape(QFrame.NoFrame)
-        self.frame_4.setFrameShadow(QFrame.Raised)
-        self.verticalLayout_2 = QVBoxLayout(self.frame_4)
-        self.verticalLayout_2.setObjectName(u"verticalLayout_2")
-        self.treeWidget = QTreeWidget(self.frame_4)
-        __qtreewidgetitem = QTreeWidgetItem(self.treeWidget)
-        __qtreewidgetitem1 = QTreeWidgetItem(__qtreewidgetitem)
-        QTreeWidgetItem(__qtreewidgetitem1)
-        QTreeWidgetItem(__qtreewidgetitem)
-        QTreeWidgetItem(self.treeWidget)
-        __qtreewidgetitem2 = QTreeWidgetItem(self.treeWidget)
-        __qtreewidgetitem3 = QTreeWidgetItem(__qtreewidgetitem2)
-        QTreeWidgetItem(__qtreewidgetitem3)
-        QTreeWidgetItem(__qtreewidgetitem3)
-        QTreeWidgetItem(self.treeWidget)
-        self.treeWidget.setObjectName(u"treeWidget")
+        self.groupBox_4 = QGroupBox(self.frame)
+        self.groupBox_4.setObjectName(u"groupBox_4")
+        font = QFont()
+        font.setFamilies([u"Tw Cen MT Condensed Extra Bold"])
+        font.setPointSize(10)
+        self.groupBox_4.setFont(font)
+        self.groupBox_4.setStyleSheet(u"QGroupBox {\n"
+"	color: white;\n"
+"	background-color: rgba(182, 57, 255, 80);\n"
+"	\n"
+"}")
+        self.groupBox_4.setAlignment(Qt.AlignCenter)
+        self.horizontalLayout_6 = QHBoxLayout(self.groupBox_4)
+        self.horizontalLayout_6.setObjectName(u"horizontalLayout_6")
+        self.treeView = QTreeView(self.groupBox_4)
+        self.treeView.setObjectName(u"treeView")
 
-        self.verticalLayout_2.addWidget(self.treeWidget)
+        self.horizontalLayout_6.addWidget(self.treeView)
 
 
-        self.horizontalLayout.addWidget(self.frame_4)
+        self.horizontalLayout.addWidget(self.groupBox_4)
 
-        self.frame_5 = QFrame(self.frame)
-        self.frame_5.setObjectName(u"frame_5")
-        self.frame_5.setMinimumSize(QSize(400, 0))
-        self.frame_5.setMaximumSize(QSize(400, 16777215))
-        self.frame_5.setFrameShape(QFrame.NoFrame)
-        self.frame_5.setFrameShadow(QFrame.Raised)
-        self.verticalLayout_3 = QVBoxLayout(self.frame_5)
-        self.verticalLayout_3.setObjectName(u"verticalLayout_3")
-        self.listWidget = QListView(self.frame_5)
-        self.listWidget.setObjectName(u"listWidget")
+        self.groupBox_5 = QGroupBox(self.frame)
+        self.groupBox_5.setObjectName(u"groupBox_5")
+        self.groupBox_5.setFont(font)
+        self.groupBox_5.setStyleSheet(u"QGroupBox {\n"
+"	color: white;\n"
+"	background-color: rgba(182, 57, 255, 80);\n"
+"	\n"
+"}")
+        self.groupBox_5.setAlignment(Qt.AlignCenter)
+        self.horizontalLayout_7 = QHBoxLayout(self.groupBox_5)
+        self.horizontalLayout_7.setObjectName(u"horizontalLayout_7")
+        self.treeView_2 = QTreeView(self.groupBox_5)
+        self.treeView_2.setObjectName(u"treeView_2")
+        self.treeView_2.setStyleSheet(u"background-color: rgba(192, 198, 223, 90);")
 
-        self.verticalLayout_3.addWidget(self.listWidget)
+        self.horizontalLayout_7.addWidget(self.treeView_2)
 
 
-        self.horizontalLayout.addWidget(self.frame_5)
+        self.horizontalLayout.addWidget(self.groupBox_5)
 
 
         self.verticalLayout.addWidget(self.frame)
@@ -108,26 +111,164 @@ class Ui_MainWindow(object):
         self.frame_2.setMaximumSize(QSize(16777215, 150))
         self.frame_2.setFrameShape(QFrame.NoFrame)
         self.frame_2.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_2 = QHBoxLayout(self.frame_2)
+        self.horizontalLayout_2.setObjectName(u"horizontalLayout_2")
+        self.groupBox_2 = QGroupBox(self.frame_2)
+        self.groupBox_2.setObjectName(u"groupBox_2")
+        self.groupBox_2.setMinimumSize(QSize(350, 0))
+        self.groupBox_2.setMaximumSize(QSize(250, 16777215))
+        self.groupBox_2.setFont(font)
+        self.groupBox_2.setStyleSheet(u"QGroupBox {\n"
+"	color: white;\n"
+"	background-color: rgba(182, 57, 255, 80);\n"
+"	\n"
+"}")
+        self.groupBox_2.setAlignment(Qt.AlignCenter)
+        self.verticalLayout_2 = QVBoxLayout(self.groupBox_2)
+        self.verticalLayout_2.setSpacing(0)
+        self.verticalLayout_2.setObjectName(u"verticalLayout_2")
+        self.verticalLayout_2.setContentsMargins(0, 0, 0, 0)
+        self.frame_6 = QFrame(self.groupBox_2)
+        self.frame_6.setObjectName(u"frame_6")
+        self.frame_6.setFrameShape(QFrame.NoFrame)
+        self.frame_6.setFrameShadow(QFrame.Raised)
+        self.verticalLayout_3 = QVBoxLayout(self.frame_6)
+        self.verticalLayout_3.setObjectName(u"verticalLayout_3")
+        self.leExtensions = QLineEdit(self.frame_6)
+        self.leExtensions.setObjectName(u"leExtensions")
+        self.leExtensions.setMinimumSize(QSize(0, 35))
+        self.leExtensions.setStyleSheet(u"background-color: rgba(234, 220, 255, 190);\n"
+"border-radius: 5px;\n"
+"border: 1px solid rgba(182, 57, 255, 80);")
+
+        self.verticalLayout_3.addWidget(self.leExtensions)
+
+
+        self.verticalLayout_2.addWidget(self.frame_6)
+
+        self.frame_5 = QFrame(self.groupBox_2)
+        self.frame_5.setObjectName(u"frame_5")
+        self.frame_5.setFrameShape(QFrame.NoFrame)
+        self.frame_5.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_3 = QHBoxLayout(self.frame_5)
+        self.horizontalLayout_3.setObjectName(u"horizontalLayout_3")
+        self.btRemove = QPushButton(self.frame_5)
+        self.btRemove.setObjectName(u"btRemove")
+        self.btRemove.setMinimumSize(QSize(0, 30))
+        self.btRemove.setMaximumSize(QSize(16777215, 30))
+        self.btRemove.setFont(font)
+        self.btRemove.setStyleSheet(u"QPushButton {\n"
+"background-color: rgba(234, 220, 255, 190);\n"
+"border-radius: 5px;\n"
+"border: 1px solid rgba(182, 57, 255, 80);\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"background-color: rgba(220, 220, 255, 190);\n"
+"border-radius: 6px;\n"
+"border: 1px solid rgba(182, 57, 255, 80);\n"
+"}\n"
+"")
+
+        self.horizontalLayout_3.addWidget(self.btRemove)
+
+        self.btRemoveAll = QPushButton(self.frame_5)
+        self.btRemoveAll.setObjectName(u"btRemoveAll")
+        self.btRemoveAll.setMinimumSize(QSize(80, 30))
+        self.btRemoveAll.setMaximumSize(QSize(80, 30))
+        self.btRemoveAll.setFont(font)
+        self.btRemoveAll.setStyleSheet(u"QPushButton {\n"
+"background-color: rgba(234, 220, 255, 190);\n"
+"border-radius: 5px;\n"
+"border: 1px solid rgba(182, 57, 255, 80);\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"background-color: rgba(220, 220, 255, 190);\n"
+"border-radius: 6px;\n"
+"border: 1px solid rgba(182, 57, 255, 80);\n"
+"}")
+
+        self.horizontalLayout_3.addWidget(self.btRemoveAll)
+
+
+        self.verticalLayout_2.addWidget(self.frame_5)
+
+
+        self.horizontalLayout_2.addWidget(self.groupBox_2)
+
+        self.groupBox_3 = QGroupBox(self.frame_2)
+        self.groupBox_3.setObjectName(u"groupBox_3")
+        self.groupBox_3.setFont(font)
+        self.groupBox_3.setStyleSheet(u"QGroupBox {\n"
+"	color: white;\n"
+"	background-color: rgba(182, 57, 255, 80);\n"
+"	\n"
+"}")
+        self.groupBox_3.setAlignment(Qt.AlignCenter)
+        self.horizontalLayout_4 = QHBoxLayout(self.groupBox_3)
+        self.horizontalLayout_4.setObjectName(u"horizontalLayout_4")
+        self.btOrganize = QPushButton(self.groupBox_3)
+        self.btOrganize.setObjectName(u"btOrganize")
+        self.btOrganize.setMinimumSize(QSize(100, 30))
+        self.btOrganize.setMaximumSize(QSize(100, 30))
+        self.btOrganize.setFont(font)
+        self.btOrganize.setStyleSheet(u"QPushButton {\n"
+"background-color: rgba(234, 220, 255, 190);\n"
+"border-radius: 5px;\n"
+"border: 1px solid rgba(182, 57, 255, 80);\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"background-color: rgba(220, 220, 255, 190);\n"
+"border-radius: 6px;\n"
+"border: 1px solid rgba(182, 57, 255, 80);\n"
+"}")
+
+        self.horizontalLayout_4.addWidget(self.btOrganize)
+
+
+        self.horizontalLayout_2.addWidget(self.groupBox_3)
+
+        self.groupBox = QGroupBox(self.frame_2)
+        self.groupBox.setObjectName(u"groupBox")
+        self.groupBox.setMinimumSize(QSize(350, 0))
+        self.groupBox.setMaximumSize(QSize(250, 16777215))
+        self.groupBox.setFont(font)
+        self.groupBox.setStyleSheet(u"QGroupBox {\n"
+"	color: white;\n"
+"	background-color: rgba(182, 57, 255, 80);\n"
+"	\n"
+"}")
+        self.groupBox.setAlignment(Qt.AlignCenter)
+        self.horizontalLayout_5 = QHBoxLayout(self.groupBox)
+        self.horizontalLayout_5.setObjectName(u"horizontalLayout_5")
+        self.btUndo = QPushButton(self.groupBox)
+        self.btUndo.setObjectName(u"btUndo")
+        self.btUndo.setMinimumSize(QSize(100, 30))
+        self.btUndo.setMaximumSize(QSize(100, 30))
+        self.btUndo.setFont(font)
+        self.btUndo.setStyleSheet(u"QPushButton {\n"
+"background-color: rgba(234, 220, 255, 190);\n"
+"border-radius: 5px;\n"
+"border: 1px solid rgba(182, 57, 255, 80);\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"background-color: rgba(220, 220, 255, 190);\n"
+"border-radius: 6px;\n"
+"border: 1px solid rgba(182, 57, 255, 80);\n"
+"}")
+
+        self.horizontalLayout_5.addWidget(self.btUndo)
+
+
+        self.horizontalLayout_2.addWidget(self.groupBox)
+
 
         self.verticalLayout.addWidget(self.frame_2)
 
         MainWindow.setCentralWidget(self.centralwidget)
-        self.menubar = QMenuBar(MainWindow)
-        self.menubar.setObjectName(u"menubar")
-        self.menubar.setGeometry(QRect(0, 0, 800, 21))
-        self.menuMenu = QMenu(self.menubar)
-        self.menuMenu.setObjectName(u"menuMenu")
-        self.menuVersion = QMenu(self.menubar)
-        self.menuVersion.setObjectName(u"menuVersion")
-        MainWindow.setMenuBar(self.menubar)
-
-        self.menubar.addAction(self.menuMenu.menuAction())
-        self.menubar.addAction(self.menuVersion.menuAction())
-        self.menuMenu.addSeparator()
-        self.menuMenu.addAction(self.actionInfo)
-        self.menuMenu.addAction(self.actionUndo)
-        self.menuMenu.addAction(self.actionDirectory)
-        self.menuVersion.addAction(self.actionVersion)
 
         self.retranslateUi(MainWindow)
 
@@ -140,34 +281,16 @@ class Ui_MainWindow(object):
         self.actionUndo.setText(QCoreApplication.translate("MainWindow", u"Undo", None))
         self.actionDirectory.setText(QCoreApplication.translate("MainWindow", u"Directory", None))
         self.actionVersion.setText(QCoreApplication.translate("MainWindow", u"Version", None))
-        ___qtreewidgetitem = self.treeWidget.headerItem()
-        ___qtreewidgetitem.setText(0, QCoreApplication.translate("MainWindow", u"1", None));
-
-        __sortingEnabled = self.treeWidget.isSortingEnabled()
-        self.treeWidget.setSortingEnabled(False)
-        ___qtreewidgetitem1 = self.treeWidget.topLevelItem(0)
-        ___qtreewidgetitem1.setText(0, QCoreApplication.translate("MainWindow", u"folder1", None));
-        ___qtreewidgetitem2 = ___qtreewidgetitem1.child(0)
-        ___qtreewidgetitem2.setText(0, QCoreApplication.translate("MainWindow", u"a", None));
-        ___qtreewidgetitem3 = ___qtreewidgetitem2.child(0)
-        ___qtreewidgetitem3.setText(0, QCoreApplication.translate("MainWindow", u"c", None));
-        ___qtreewidgetitem4 = ___qtreewidgetitem1.child(1)
-        ___qtreewidgetitem4.setText(0, QCoreApplication.translate("MainWindow", u"c", None));
-        ___qtreewidgetitem5 = self.treeWidget.topLevelItem(1)
-        ___qtreewidgetitem5.setText(0, QCoreApplication.translate("MainWindow", u"folder2", None));
-        ___qtreewidgetitem6 = self.treeWidget.topLevelItem(2)
-        ___qtreewidgetitem6.setText(0, QCoreApplication.translate("MainWindow", u"gg", None));
-        ___qtreewidgetitem7 = ___qtreewidgetitem6.child(0)
-        ___qtreewidgetitem7.setText(0, QCoreApplication.translate("MainWindow", u"ggg", None));
-        ___qtreewidgetitem8 = ___qtreewidgetitem7.child(0)
-        ___qtreewidgetitem8.setText(0, QCoreApplication.translate("MainWindow", u"ggg", None));
-        ___qtreewidgetitem9 = ___qtreewidgetitem7.child(1)
-        ___qtreewidgetitem9.setText(0, QCoreApplication.translate("MainWindow", u"plik.txt", None));
-        ___qtreewidgetitem10 = self.treeWidget.topLevelItem(3)
-        ___qtreewidgetitem10.setText(0, QCoreApplication.translate("MainWindow", u"folder3", None));
-        self.treeWidget.setSortingEnabled(__sortingEnabled)
-
-        self.menuMenu.setTitle(QCoreApplication.translate("MainWindow", u"Menu", None))
-        self.menuVersion.setTitle(QCoreApplication.translate("MainWindow", u"Version", None))
+        self.groupBox_4.setTitle(QCoreApplication.translate("MainWindow", u"Folders", None))
+        self.treeView.setStyleSheet(QCoreApplication.translate("MainWindow", u"background-color: rgba(192, 198, 223, 90);", None))
+        self.groupBox_5.setTitle(QCoreApplication.translate("MainWindow", u"Preview", None))
+        self.groupBox_2.setTitle(QCoreApplication.translate("MainWindow", u"Remove files", None))
+        self.leExtensions.setPlaceholderText(QCoreApplication.translate("MainWindow", u"ex. jpg,png,zip", None))
+        self.btRemove.setText(QCoreApplication.translate("MainWindow", u"Remove extensions", None))
+        self.btRemoveAll.setText(QCoreApplication.translate("MainWindow", u"Remove all", None))
+        self.groupBox_3.setTitle(QCoreApplication.translate("MainWindow", u"Organize folders", None))
+        self.btOrganize.setText(QCoreApplication.translate("MainWindow", u"Organize", None))
+        self.groupBox.setTitle(QCoreApplication.translate("MainWindow", u"Undo operations", None))
+        self.btUndo.setText(QCoreApplication.translate("MainWindow", u"Undo", None))
     # retranslateUi
 

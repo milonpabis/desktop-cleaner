@@ -9,4 +9,4 @@ if __name__ == "__main__":
     app.exec()       
 
 # TODO:
-    # add the ability to undo "organize" operation
+    # create class Logs with history of operations and its data

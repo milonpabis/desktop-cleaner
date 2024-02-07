@@ -76,10 +76,20 @@ class DesktopCleaner:
                 winshell.undelete(item.original_filename())
 
         elif self.__last_operation == "clean":      # restoring files to their original state
-            ... # return files to their original state
-
-    # TODO:
-            # - add a go_back option to restore files that had been put into directories
+            print(self.__moved_files)
+            print(self.__created_directories)
+            for file in self.__moved_files:
+                temp = file.split("/")
+                part = temp[:-2] + [temp[-1]]
+                path = "/".join(part)
+                print(path)
+                os.rename(file, path)
+            for directory in self.__created_directories:
+                if not len(os.listdir(directory)):
+                    os.rmdir(directory)
+        self.__created_directories = []
+        self.__moved_files = []
+        
 
     def remove_recursive(self, ext):        # removing files from the directory and its subdirectories
         self.__empty_recycle_bin()

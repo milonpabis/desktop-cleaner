@@ -2,6 +2,7 @@ from UI.MainWindow import Ui_MainWindow
 from UI.RemoveConfirm import Ui_Dialog
 from PySide6.QtWidgets import QMainWindow, QApplication, QFileSystemModel, QDialog
 from PySide6.QtCore import QDir
+from PySide6.QtGui import QIcon
 import winreg
 from assets.DesktopCleaner import DesktopCleaner
 
@@ -14,6 +15,8 @@ class View(QMainWindow, Ui_MainWindow):
         self.dCleaner = DesktopCleaner()        # connecting the logic
         self.setupUi(self)
         self.setStyleSheet('QMainWindow {background-image: url("UI/images/galaxy_bg.jpg");}')
+        self.setWindowTitle("Desktop Cleaner v1.0")
+        self.setWindowIcon(QIcon("UI/images/ico.jpg"))
         self.setup_tree(self.treeView)
         self.treeView.clicked.connect(self.show_selected)
         self.btUndo.clicked.connect(self.undo_pressed)
@@ -63,7 +66,10 @@ class View(QMainWindow, Ui_MainWindow):
         self.dCleaner.clean()
 
     def remove_pressed(self):
-        self.dCleaner.remove_recursive(self.leExtensions.text())
+        if not self.leExtensions.text():
+            return
+        extensions = self.leExtensions.text().split(",")
+        self.dCleaner.remove_recursive(extensions)
 
     def remove_all_pressed(self):       
         dialog = AcceptDialog()
@@ -80,6 +86,8 @@ class AcceptDialog(QDialog, Ui_Dialog):
         super().__init__()
         self.setupUi(self)
         self.setStyleSheet('QDialog {background-image: url("UI/images/dialog_bg.jpg");}')
+        self.setWindowTitle("Confirm")
+        self.setWindowIcon(QIcon("UI/images/ico.jpg"))
         self.returnValue = 0
         self.pushButton.clicked.connect(lambda: self.accept(1))
         self.pushButton_2.clicked.connect(lambda: self.accept(0))

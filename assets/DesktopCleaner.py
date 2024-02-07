@@ -1,11 +1,13 @@
 import os
 import winshell
+import datetime as dt
 
 class DesktopCleaner:
 
 
     def __init__(self):
         self.__path = None  # in terms of using remove_all() method
+        self.__logManager = LogStack()
         self.__last_operation = None
         self.__last_deleted = []
         self.__empty_recycle_bin()
@@ -37,6 +39,7 @@ class DesktopCleaner:
         self.__last_operation = "clean"
         self.__last_log = LogEntry(mf, cd)
         print(self.__last_log)
+        self.__logManager.push_log(self.__last_log)
 
 
     def remove(self, ext):
@@ -58,6 +61,8 @@ class DesktopCleaner:
                 print("It's a directory!")
 
         self.__last_operation = "remove"
+        self.__last_log = RLogEntry(self.__last_deleted)
+        self.__logManager.push_log(self.__last_log)
 
 
     def remove_all(self):    # removing all files from the directory, but not going into its subdirectories
@@ -70,13 +75,21 @@ class DesktopCleaner:
             self.__last_deleted.append(self.__path + file)
 
         self.__last_operation = "remove"
+        self.__last_log = RLogEntry(self.__last_deleted)
+        self.__logManager.push_log(self.__last_log)
 
 
     def go_back(self):
+        print("TEST: ", self.__logManager.pop_log())
+        print("!TEST")
+        if self.__last_log is None:
+            return
+        
         if self.__last_operation == "remove":       # restoring files from the recycle bin
             items = list(winshell.recycle_bin())
             for item in items:
                 winshell.undelete(item.original_filename())
+                print(item.original_filename())
 
         elif self.__last_operation == "clean":      # restoring files to their original state
             for i in range(len(self.__last_log.files)):
@@ -85,6 +98,7 @@ class DesktopCleaner:
                 if not len(os.listdir(directory)):
                     os.rmdir(directory)
         self.__last_log = None
+        
 
 
     def remove_recursive(self, ext):        # removing files from the directory and its subdirectories
@@ -99,11 +113,13 @@ class DesktopCleaner:
                     queue.append(current + file + "/")
 
                 else:
-                    if file.endswith(ext):
+                    if file.endswith(tuple(ext)):
                         winshell.delete_file(current + file, no_confirm=True)
                         self.__last_deleted.append(current + file)
 
         self.__last_operation = "remove"
+        self.__last_log = RLogEntry(self.__last_deleted)
+        self.__logManager.push_log(self.__last_log)
 
 
     @property
@@ -112,7 +128,7 @@ class DesktopCleaner:
 
 
     @path.setter
-    def path(self, path):
+    def path(self, path: str):
         if os.path.exists(path):
             if path[-1] not in ("/", "\\"):
                 path += "/"
@@ -131,7 +147,7 @@ class DesktopCleaner:
 
 class LogEntry:
 
-    def __init__(self, files, paths):
+    def __init__(self, files: list[str], paths: list[str]):
         self.__files = files
         self.__paths = paths
         self.__old_names = []
@@ -145,7 +161,7 @@ class LogEntry:
 
 
     def __str__(self):
-        res = [f"DIRECTORY CREATED: {path}" for path in self.__paths]
+        res = [f"CREATED: {path}" for path in self.__paths]
         res += [f"{self.__old_names[i]} -> {self.__files[i]}" for i in range(len(self.__files))]
         return "\n".join(res)
         
@@ -163,6 +179,49 @@ class LogEntry:
     @property
     def old_names(self):
         return self.__old_names
+    
+
+
+class RLogEntry:
+
+    def __init__(self, files: list[str]):
+        self.__files = files
+
+
+    def __str__(self):
+        return "\n".join([f"REMOVED: {file}" for file in self.__files])
+
+
+    @property
+    def files(self):
+        return self.__files
+
+
+
+class LogStack:
+
+    def __init__(self, log_path: str = "."):
+        self.__logs : list[LogEntry, RLogEntry] = []
+        self.__log_path = log_path
+    
+
+    def push_log(self, log: LogEntry or RLogEntry):
+        try:
+            with open(f"{self.__log_path}/log_{dt.datetime.now().strftime('%Y-%m-%d')}.txt", "a") as file:
+                file.write(f"{dt.datetime.now().strftime('%H:%M:%S')}:\n{'-'*10}\n{log}\n{'-'*10}\n\n")
+        except Exception:
+            print("Error while saving the log")
+        self.__logs.append(log)
+
+
+    def pop_log(self) -> LogEntry or RLogEntry or None:
+        if self.__is_empty():
+            return None
+        return self.__logs.pop(-1)
+
+
+    def __is_empty(self) -> bool:
+        return not bool(self.__logs)
 
     
 

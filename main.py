@@ -1,12 +1,16 @@
 from assets.DesktopCleaner import DesktopCleaner
 from assets.View import View, QApplication
-
+import datetime as dt
+TEST = False
 
 if __name__ == "__main__":
-    app = QApplication()
-    window = View()
-    window.show()
-    app.exec()       
+    if not TEST:
+        app = QApplication()
+        window = View()
+        window.show()
+        app.exec()       
+    else:
+        print(dt.datetime.now().strftime('%Y-%m-%d'))
 
 # TODO:
-    # create class Logs with history of operations and its data
+    # connect logManager to functions

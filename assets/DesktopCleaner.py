@@ -8,13 +8,14 @@ class DesktopCleaner:
         self.__path = None  # in terms of using remove_all() method
         self.__last_operation = None
         self.__last_deleted = []
-        self.__created_directories = []
-        self.__moved_files = []
         self.__empty_recycle_bin()
+        self.__last_log = None
 
 
     def clean(self):
         self.__last_deleted = []
+        cd = []
+        mf = []
         files = os.listdir(self.__path)
 
         for file in files:
@@ -25,15 +26,17 @@ class DesktopCleaner:
 
                     if not os.path.exists(self.__path + extension):
                         os.makedirs(self.__path + extension)
-                        self.__created_directories.append(self.__path + extension)
+                        cd.append(self.__path + extension)
 
                     os.rename(self.__path + file, self.__path + extension + "/" + file) # moving files to their directories
-                    self.__moved_files.append(self.__path + extension + "/" + file)
+                    mf.append(self.__path + extension + "/" + file)
 
             except Exception:
                 print(" E R R O R ! ")
 
         self.__last_operation = "clean"
+        self.__last_log = LogEntry(mf, cd)
+        print(self.__last_log)
 
 
     def remove(self, ext):
@@ -76,20 +79,13 @@ class DesktopCleaner:
                 winshell.undelete(item.original_filename())
 
         elif self.__last_operation == "clean":      # restoring files to their original state
-            print(self.__moved_files)
-            print(self.__created_directories)
-            for file in self.__moved_files:
-                temp = file.split("/")
-                part = temp[:-2] + [temp[-1]]
-                path = "/".join(part)
-                print(path)
-                os.rename(file, path)
-            for directory in self.__created_directories:
+            for i in range(len(self.__last_log.files)):
+                os.rename(self.__last_log.files[i], self.__last_log.old_names[i])
+            for directory in self.__last_log.paths:
                 if not len(os.listdir(directory)):
                     os.rmdir(directory)
-        self.__created_directories = []
-        self.__moved_files = []
-        
+        self.__last_log = None
+
 
     def remove_recursive(self, ext):        # removing files from the directory and its subdirectories
         self.__empty_recycle_bin()
@@ -130,6 +126,47 @@ class DesktopCleaner:
             winshell.recycle_bin().empty(confirm=False)
         except Exception:
             print("Recycle bin is already empty")
+
+
+
+class LogEntry:
+
+    def __init__(self, files, paths):
+        self.__files = files
+        self.__paths = paths
+        self.__old_names = []
+        self.__translate()
+
+
+    def __translate(self):
+        for file in self.__files:
+            temp = file.split("/")
+            self.__old_names.append("/".join(temp[:-2] + [temp[-1]]))
+
+
+    def __str__(self):
+        res = [f"DIRECTORY CREATED: {path}" for path in self.__paths]
+        res += [f"{self.__old_names[i]} -> {self.__files[i]}" for i in range(len(self.__files))]
+        return "\n".join(res)
+        
+
+    @property
+    def files(self):
+        return self.__files
+    
+
+    @property
+    def paths(self):
+        return self.__paths
+    
+
+    @property
+    def old_names(self):
+        return self.__old_names
+
+    
+
+    
     
 
     

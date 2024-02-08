@@ -8,14 +8,9 @@ class DesktopCleaner:
     def __init__(self):
         self.__path = None  # in terms of using remove_all() method
         self.__logManager = LogStack()
-        self.__last_operation = None
-        self.__last_deleted = []
-        self.__empty_recycle_bin()
-        self.__last_log = None
 
 
     def clean(self):
-        self.__last_deleted = []
         cd = []
         mf = []
         files = os.listdir(self.__path)
@@ -36,15 +31,12 @@ class DesktopCleaner:
             except Exception:
                 print(" E R R O R ! ")
 
-        self.__last_operation = "clean"
-        self.__last_log = LogEntry(mf, cd)
-        print(self.__last_log)
-        self.__logManager.push_log(self.__last_log)
+        log = LogEntry(mf, cd)
+        self.__logManager.push_log(log)
 
 
     def remove(self, ext):
-        self.__empty_recycle_bin()
-        self.__last_deleted = []
+        last_deleted = []
         files = os.listdir(self.__path)
 
         for file in files:
@@ -55,71 +47,75 @@ class DesktopCleaner:
 
                     if extension == ext:
                         winshell.delete_file(self.__path + file, no_confirm=True)
-                        self.__last_deleted.append(self.__path + file)
+                        last_deleted.append(self.__path + file)
 
             except Exception:
                 print("It's a directory!")
 
-        self.__last_operation = "remove"
-        self.__last_log = RLogEntry(self.__last_deleted)
-        self.__logManager.push_log(self.__last_log)
+        log = RLogEntry(last_deleted)
+        self.__logManager.push_log(log)
 
 
     def remove_all(self):    # removing all files from the directory, but not going into its subdirectories
-        self.__empty_recycle_bin()
-        self.__last_deleted = []
+        last_deleted = []
         
         files = os.listdir(self.__path)     # moving all files to the recycle bin
         for file in files:
             winshell.delete_file(self.__path + file, no_confirm=True)
-            self.__last_deleted.append(self.__path + file)
+            last_deleted.append(self.__path + file)
 
-        self.__last_operation = "remove"
-        self.__last_log = RLogEntry(self.__last_deleted)
-        self.__logManager.push_log(self.__last_log)
+        log = RLogEntry(last_deleted)
+        self.__logManager.push_log(log)
 
 
     def go_back(self):
-        print("TEST: ", self.__logManager.pop_log())
-        print("!TEST")
-        if self.__last_log is None:
-            return
-        
-        if self.__last_operation == "remove":       # restoring files from the recycle bin
-            items = list(winshell.recycle_bin())
-            for item in items:
-                winshell.undelete(item.original_filename())
-                print(item.original_filename())
+        log = self.__logManager.pop_log()
+        if log is not None:
+            if isinstance(log, LogEntry):
+                self.undo_clean(log)
+            else:
+                self.undo_remove(log)
 
-        elif self.__last_operation == "clean":      # restoring files to their original state
-            for i in range(len(self.__last_log.files)):
-                os.rename(self.__last_log.files[i], self.__last_log.old_names[i])
-            for directory in self.__last_log.paths:
-                if not len(os.listdir(directory)):
-                    os.rmdir(directory)
-        self.__last_log = None
+
+    def undo_remove(self, log):
+        bin = list(winshell.recycle_bin())
+        for item in bin:
+            if item.original_filename().replace("\\", "/") in log.files:
+                winshell.undelete(item.original_filename())
+        # write the operation to log file
+
+    
+    def undo_clean(self, log):
+        for i in range(len(log.files)):
+            os.rename(log.files[i], log.old_names[i])
+        for directory in log.paths:
+            if not len(os.listdir(directory)):
+                os.rmdir(directory)
+        # write the operation to log file
         
 
 
     def remove_recursive(self, ext):        # removing files from the directory and its subdirectories
-        self.__empty_recycle_bin()
         queue = [self.__path]
+        last_deleted = []
 
         while queue:
             current = queue.pop(0)
 
             for file in os.listdir(current):
-                if os.path.isdir(current + file):
-                    queue.append(current + file + "/")
+                try:
+                    if os.path.isdir(current + file):
+                        queue.append(current + file + "/")
 
-                else:
-                    if file.endswith(tuple(ext)):
-                        winshell.delete_file(current + file, no_confirm=True)
-                        self.__last_deleted.append(current + file)
+                    else:
+                        if file.endswith(tuple(ext)):
+                            winshell.delete_file(current + file, no_confirm=True)
+                            last_deleted.append(current + file)
+                except Exception:
+                    print("Could not delete the file")
 
-        self.__last_operation = "remove"
-        self.__last_log = RLogEntry(self.__last_deleted)
-        self.__logManager.push_log(self.__last_log)
+        log = RLogEntry(last_deleted)
+        self.__logManager.push_log(log)
 
 
     @property

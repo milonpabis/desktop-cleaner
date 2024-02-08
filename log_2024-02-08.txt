@@ -1,0 +1,93 @@
+11:06:42:
+----------
+F:/Desktop/rozne/wielkitest/kita/TIKTOK/www.tiktok -> F:/Desktop/rozne/wielkitest/kita/TIKTOK/TIKTOK/www.tiktok
+----------
+
+11:07:05:
+----------
+F:/Desktop/rozne/wielkitest/kita/TIKTOK/www.tiktok -> F:/Desktop/rozne/wielkitest/kita/TIKTOK/TIKTOK/www.tiktok
+----------
+
+11:07:13:
+----------
+REMOVED: F:/Desktop/rozne/wielkitest/kita/TIKTOK/TIKTOK
+REMOVED: F:/Desktop/rozne/wielkitest/kita/TIKTOK/www.tiktok
+----------
+
+11:22:36:
+----------
+CREATED: F:/Desktop/rozne/wielkitest/kita/RTF/RTF
+F:/Desktop/rozne/wielkitest/kita/RTF/bab.rtf -> F:/Desktop/rozne/wielkitest/kita/RTF/RTF/bab.rtf
+----------
+
+11:22:45:
+----------
+REMOVED: F:/Desktop/rozne/wielkitest/kita/RTF/RTF
+----------
+
+11:36:10:
+----------
+CREATED: F:/Desktop/rozne/wielkitest/as/TIKTOK/TIKTOK
+F:/Desktop/rozne/wielkitest/as/TIKTOK/www.tiktok *> F:/Desktop/rozne/wielkitest/as/TIKTOK/TIKTOK/www.tiktok
+----------
+
+11:36:15:
+----------
+REMOVED: F:/Desktop/rozne/wielkitest/as/TIKTOK/TIKTOK
+----------
+
+11:39:18:
+----------
+CREATED: F:/Desktop/rozne/wielkitest/as/TXT/TXT
+F:/Desktop/rozne/wielkitest/as/TXT/asdasd.txt -> F:/Desktop/rozne/wielkitest/as/TXT/TXT/asdasd.txt
+----------
+
+11:39:31:
+----------
+CREATED: F:/Desktop/rozne/wielkitest/as/TXT/TXT
+F:/Desktop/rozne/wielkitest/as/TXT/asdasd.txt -> F:/Desktop/rozne/wielkitest/as/TXT/TXT/asdasd.txt
+----------
+
+11:39:35:
+----------
+REMOVED: F:/Desktop/rozne/wielkitest/as/TXT/TXT
+----------
+
+11:41:48:
+----------
+CREATED: F:/Desktop/rozne/wielkitest/kita/WOWOWOW/DOCX/DOCX/DOCX/DOCX
+F:/Desktop/rozne/wielkitest/kita/WOWOWOW/DOCX/DOCX/DOCX/OPALY.docx -> F:/Desktop/rozne/wielkitest/kita/WOWOWOW/DOCX/DOCX/DOCX/DOCX/OPALY.docx
+----------
+
+11:41:54:
+----------
+CREATED: F:/Desktop/rozne/wielkitest/kita/WOWOWOW/DOCX/DOCX/DOCX/DOCX
+F:/Desktop/rozne/wielkitest/kita/WOWOWOW/DOCX/DOCX/DOCX/OPALY.docx -> F:/Desktop/rozne/wielkitest/kita/WOWOWOW/DOCX/DOCX/DOCX/DOCX/OPALY.docx
+----------
+
+11:42:02:
+----------
+CREATED: F:/Desktop/rozne/wielkitest/kita/WOWOWOW/DOCX/DOCX/DOCX/DOCX
+F:/Desktop/rozne/wielkitest/kita/WOWOWOW/DOCX/DOCX/DOCX/OPALY.docx -> F:/Desktop/rozne/wielkitest/kita/WOWOWOW/DOCX/DOCX/DOCX/DOCX/OPALY.docx
+----------
+
+11:42:09:
+----------
+REMOVED: F:/Desktop/rozne/wielkitest/kita/WOWOWOW/DOCX/DOCX/DOCX/DOCX
+----------
+
+11:46:57:
+----------
+F:/Desktop/rozne/wielkitest/kita/TIKTOK/www.tiktok -> F:/Desktop/rozne/wielkitest/kita/TIKTOK/TIKTOK/www.tiktok
+----------
+
+11:47:00:
+----------
+F:/Desktop/rozne/wielkitest/kita/TIKTOK/www.tiktok -> F:/Desktop/rozne/wielkitest/kita/TIKTOK/TIKTOK/www.tiktok
+----------
+
+11:47:06:
+----------
+REMOVED: F:/Desktop/rozne/wielkitest/kita/TIKTOK/TIKTOK
+----------
+

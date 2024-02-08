@@ -13,4 +13,4 @@ if __name__ == "__main__":
         print(dt.datetime.now().strftime('%Y-%m-%d'))
 
 # TODO:
-    # connect logManager to functions
+    # write undo logs to a file

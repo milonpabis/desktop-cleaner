@@ -12,8 +12,6 @@ Interface to organize your directories
       In given directory, simply put all files in trash bin.
 ## 5. Log system
       Every operation steps are stored in .txt file.
-## 6. Warning!
-      For now, every operation ( including starting the application ), empties the trash bin!
 
 # Images:
 

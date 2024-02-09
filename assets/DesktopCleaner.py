@@ -213,7 +213,15 @@ class LogStack:
     def pop_log(self) -> LogEntry or RLogEntry or None:
         if self.__is_empty():
             return None
-        return self.__logs.pop(-1)
+        log = self.__logs.pop(-1)
+        message = f"UNDO OPERATIONS: \n{log}"
+        try:
+            with open(f"{self.__log_path}/log_{dt.datetime.now().strftime('%Y-%m-%d')}.txt", "a") as file:
+                file.write(f"{dt.datetime.now().strftime('%H:%M:%S')}:\n{'-'*10}\n{message}\n{'-'*10}\n\n")
+        except Exception:
+            print("Error while saving the log")
+        return log
+
 
 
     def __is_empty(self) -> bool:

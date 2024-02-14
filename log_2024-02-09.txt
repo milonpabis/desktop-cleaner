@@ -3605,3 +3605,174 @@ REMOVED: F:/Desktop/repos/Unity/Basics/Library/PackageCache/com.unity.collab-pro
 REMOVED: F:/Desktop/repos/ana37/Lib/site-packages/tensorflow/include/external/local_config_python/numpy_include/numpy/libdivide/LICENSE.txt
 ----------
 
+13:48:04:
+----------
+CREATED: F:/Desktop/matlab/TXT
+CREATED: F:/Desktop/matlab/M
+CREATED: F:/Desktop/matlab/ASV
+CREATED: F:/Desktop/matlab/DAT.TXT
+F:/Desktop/matlab/2022_tsd_hrm1.txt -> F:/Desktop/matlab/TXT/2022_tsd_hrm1.txt
+F:/Desktop/matlab/2022_tsd_xcorr2.txt -> F:/Desktop/matlab/TXT/2022_tsd_xcorr2.txt
+F:/Desktop/matlab/2023_tsd_szum_1a.txt -> F:/Desktop/matlab/TXT/2023_tsd_szum_1a.txt
+F:/Desktop/matlab/2023_tsd_xcorr_1a.txt -> F:/Desktop/matlab/TXT/2023_tsd_xcorr_1a.txt
+F:/Desktop/matlab/corr_01.txt -> F:/Desktop/matlab/TXT/corr_01.txt
+F:/Desktop/matlab/corr_02.txt -> F:/Desktop/matlab/TXT/corr_02.txt
+F:/Desktop/matlab/dem_201.txt -> F:/Desktop/matlab/TXT/dem_201.txt
+F:/Desktop/matlab/kor_301.txt -> F:/Desktop/matlab/TXT/kor_301.txt
+F:/Desktop/matlab/kor_303.txt -> F:/Desktop/matlab/TXT/kor_303.txt
+F:/Desktop/matlab/lekcja10.m -> F:/Desktop/matlab/M/lekcja10.m
+F:/Desktop/matlab/lekcja11.m -> F:/Desktop/matlab/M/lekcja11.m
+F:/Desktop/matlab/lekcja12.m -> F:/Desktop/matlab/M/lekcja12.m
+F:/Desktop/matlab/lekcja13.m -> F:/Desktop/matlab/M/lekcja13.m
+F:/Desktop/matlab/lekcja2.m -> F:/Desktop/matlab/M/lekcja2.m
+F:/Desktop/matlab/lekcja3.m -> F:/Desktop/matlab/M/lekcja3.m
+F:/Desktop/matlab/lekcja4.m -> F:/Desktop/matlab/M/lekcja4.m
+F:/Desktop/matlab/lekcja5.m -> F:/Desktop/matlab/M/lekcja5.m
+F:/Desktop/matlab/lekcja6.m -> F:/Desktop/matlab/M/lekcja6.m
+F:/Desktop/matlab/lekcja7.m -> F:/Desktop/matlab/M/lekcja7.m
+F:/Desktop/matlab/lekcja8.m -> F:/Desktop/matlab/M/lekcja8.m
+F:/Desktop/matlab/lekcja9.m -> F:/Desktop/matlab/M/lekcja9.m
+F:/Desktop/matlab/spis.m -> F:/Desktop/matlab/M/spis.m
+F:/Desktop/matlab/szum_101.txt -> F:/Desktop/matlab/TXT/szum_101.txt
+F:/Desktop/matlab/szum_102.txt -> F:/Desktop/matlab/TXT/szum_102.txt
+F:/Desktop/matlab/temp_pow.txt -> F:/Desktop/matlab/TXT/temp_pow.txt
+F:/Desktop/matlab/test1.m -> F:/Desktop/matlab/M/test1.m
+F:/Desktop/matlab/test2.m -> F:/Desktop/matlab/M/test2.m
+F:/Desktop/matlab/test3.asv -> F:/Desktop/matlab/ASV/test3.asv
+F:/Desktop/matlab/test3.m -> F:/Desktop/matlab/M/test3.m
+F:/Desktop/matlab/test4.m -> F:/Desktop/matlab/M/test4.m
+F:/Desktop/matlab/testowe.txt -> F:/Desktop/matlab/TXT/testowe.txt
+F:/Desktop/matlab/tomo.dat.txt -> F:/Desktop/matlab/DAT.TXT/tomo.dat.txt
+F:/Desktop/matlab/tomo_sygn.dat.txt -> F:/Desktop/matlab/DAT.TXT/tomo_sygn.dat.txt
+F:/Desktop/matlab/trasa_01.txt -> F:/Desktop/matlab/TXT/trasa_01.txt
+F:/Desktop/matlab/trasa_02.txt -> F:/Desktop/matlab/TXT/trasa_02.txt
+----------
+
+13:48:11:
+----------
+UNDO OPERATIONS: 
+CREATED: F:/Desktop/matlab/TXT
+CREATED: F:/Desktop/matlab/M
+CREATED: F:/Desktop/matlab/ASV
+CREATED: F:/Desktop/matlab/DAT.TXT
+F:/Desktop/matlab/2022_tsd_hrm1.txt -> F:/Desktop/matlab/TXT/2022_tsd_hrm1.txt
+F:/Desktop/matlab/2022_tsd_xcorr2.txt -> F:/Desktop/matlab/TXT/2022_tsd_xcorr2.txt
+F:/Desktop/matlab/2023_tsd_szum_1a.txt -> F:/Desktop/matlab/TXT/2023_tsd_szum_1a.txt
+F:/Desktop/matlab/2023_tsd_xcorr_1a.txt -> F:/Desktop/matlab/TXT/2023_tsd_xcorr_1a.txt
+F:/Desktop/matlab/corr_01.txt -> F:/Desktop/matlab/TXT/corr_01.txt
+F:/Desktop/matlab/corr_02.txt -> F:/Desktop/matlab/TXT/corr_02.txt
+F:/Desktop/matlab/dem_201.txt -> F:/Desktop/matlab/TXT/dem_201.txt
+F:/Desktop/matlab/kor_301.txt -> F:/Desktop/matlab/TXT/kor_301.txt
+F:/Desktop/matlab/kor_303.txt -> F:/Desktop/matlab/TXT/kor_303.txt
+F:/Desktop/matlab/lekcja10.m -> F:/Desktop/matlab/M/lekcja10.m
+F:/Desktop/matlab/lekcja11.m -> F:/Desktop/matlab/M/lekcja11.m
+F:/Desktop/matlab/lekcja12.m -> F:/Desktop/matlab/M/lekcja12.m
+F:/Desktop/matlab/lekcja13.m -> F:/Desktop/matlab/M/lekcja13.m
+F:/Desktop/matlab/lekcja2.m -> F:/Desktop/matlab/M/lekcja2.m
+F:/Desktop/matlab/lekcja3.m -> F:/Desktop/matlab/M/lekcja3.m
+F:/Desktop/matlab/lekcja4.m -> F:/Desktop/matlab/M/lekcja4.m
+F:/Desktop/matlab/lekcja5.m -> F:/Desktop/matlab/M/lekcja5.m
+F:/Desktop/matlab/lekcja6.m -> F:/Desktop/matlab/M/lekcja6.m
+F:/Desktop/matlab/lekcja7.m -> F:/Desktop/matlab/M/lekcja7.m
+F:/Desktop/matlab/lekcja8.m -> F:/Desktop/matlab/M/lekcja8.m
+F:/Desktop/matlab/lekcja9.m -> F:/Desktop/matlab/M/lekcja9.m
+F:/Desktop/matlab/spis.m -> F:/Desktop/matlab/M/spis.m
+F:/Desktop/matlab/szum_101.txt -> F:/Desktop/matlab/TXT/szum_101.txt
+F:/Desktop/matlab/szum_102.txt -> F:/Desktop/matlab/TXT/szum_102.txt
+F:/Desktop/matlab/temp_pow.txt -> F:/Desktop/matlab/TXT/temp_pow.txt
+F:/Desktop/matlab/test1.m -> F:/Desktop/matlab/M/test1.m
+F:/Desktop/matlab/test2.m -> F:/Desktop/matlab/M/test2.m
+F:/Desktop/matlab/test3.asv -> F:/Desktop/matlab/ASV/test3.asv
+F:/Desktop/matlab/test3.m -> F:/Desktop/matlab/M/test3.m
+F:/Desktop/matlab/test4.m -> F:/Desktop/matlab/M/test4.m
+F:/Desktop/matlab/testowe.txt -> F:/Desktop/matlab/TXT/testowe.txt
+F:/Desktop/matlab/tomo.dat.txt -> F:/Desktop/matlab/DAT.TXT/tomo.dat.txt
+F:/Desktop/matlab/tomo_sygn.dat.txt -> F:/Desktop/matlab/DAT.TXT/tomo_sygn.dat.txt
+F:/Desktop/matlab/trasa_01.txt -> F:/Desktop/matlab/TXT/trasa_01.txt
+F:/Desktop/matlab/trasa_02.txt -> F:/Desktop/matlab/TXT/trasa_02.txt
+----------
+
+13:48:35:
+----------
+REMOVED: F:/Desktop/matlab/lekcja10.m
+REMOVED: F:/Desktop/matlab/lekcja11.m
+REMOVED: F:/Desktop/matlab/lekcja12.m
+REMOVED: F:/Desktop/matlab/lekcja13.m
+REMOVED: F:/Desktop/matlab/lekcja2.m
+REMOVED: F:/Desktop/matlab/lekcja3.m
+REMOVED: F:/Desktop/matlab/lekcja4.m
+REMOVED: F:/Desktop/matlab/lekcja5.m
+REMOVED: F:/Desktop/matlab/lekcja6.m
+REMOVED: F:/Desktop/matlab/lekcja7.m
+REMOVED: F:/Desktop/matlab/lekcja8.m
+REMOVED: F:/Desktop/matlab/lekcja9.m
+REMOVED: F:/Desktop/matlab/spis.m
+REMOVED: F:/Desktop/matlab/test1.m
+REMOVED: F:/Desktop/matlab/test2.m
+REMOVED: F:/Desktop/matlab/test3.m
+REMOVED: F:/Desktop/matlab/test4.m
+----------
+
+13:48:37:
+----------
+UNDO OPERATIONS: 
+REMOVED: F:/Desktop/matlab/lekcja10.m
+REMOVED: F:/Desktop/matlab/lekcja11.m
+REMOVED: F:/Desktop/matlab/lekcja12.m
+REMOVED: F:/Desktop/matlab/lekcja13.m
+REMOVED: F:/Desktop/matlab/lekcja2.m
+REMOVED: F:/Desktop/matlab/lekcja3.m
+REMOVED: F:/Desktop/matlab/lekcja4.m
+REMOVED: F:/Desktop/matlab/lekcja5.m
+REMOVED: F:/Desktop/matlab/lekcja6.m
+REMOVED: F:/Desktop/matlab/lekcja7.m
+REMOVED: F:/Desktop/matlab/lekcja8.m
+REMOVED: F:/Desktop/matlab/lekcja9.m
+REMOVED: F:/Desktop/matlab/spis.m
+REMOVED: F:/Desktop/matlab/test1.m
+REMOVED: F:/Desktop/matlab/test2.m
+REMOVED: F:/Desktop/matlab/test3.m
+REMOVED: F:/Desktop/matlab/test4.m
+----------
+
+13:49:26:
+----------
+REMOVED: F:/Desktop/rozne/wielkitest/kita/TIKTOK/www.tiktok
+REMOVED: F:/Desktop/rozne/wielkitest/TIKTOK/TIKTOK/TIKTOK/www.tiktok
+REMOVED: F:/Desktop/rozne/wielkitest/kita/WOWOWOW/TIKTOK/TIKTOK/www.tiktok
+----------
+
+13:49:37:
+----------
+UNDO OPERATIONS: 
+REMOVED: F:/Desktop/rozne/wielkitest/kita/TIKTOK/www.tiktok
+REMOVED: F:/Desktop/rozne/wielkitest/TIKTOK/TIKTOK/TIKTOK/www.tiktok
+REMOVED: F:/Desktop/rozne/wielkitest/kita/WOWOWOW/TIKTOK/TIKTOK/www.tiktok
+----------
+
+13:49:44:
+----------
+CREATED: F:/Desktop/rozne/wielkitest/DOCX/DOCX
+F:/Desktop/rozne/wielkitest/DOCX/NIEEE.docx -> F:/Desktop/rozne/wielkitest/DOCX/DOCX/NIEEE.docx
+F:/Desktop/rozne/wielkitest/DOCX/OPALY.docx -> F:/Desktop/rozne/wielkitest/DOCX/DOCX/OPALY.docx
+----------
+
+13:49:47:
+----------
+REMOVED: F:/Desktop/rozne/wielkitest/DOCX/DOCX
+----------
+
+13:49:49:
+----------
+UNDO OPERATIONS: 
+REMOVED: F:/Desktop/rozne/wielkitest/DOCX/DOCX
+----------
+
+13:49:52:
+----------
+UNDO OPERATIONS: 
+CREATED: F:/Desktop/rozne/wielkitest/DOCX/DOCX
+F:/Desktop/rozne/wielkitest/DOCX/NIEEE.docx -> F:/Desktop/rozne/wielkitest/DOCX/DOCX/NIEEE.docx
+F:/Desktop/rozne/wielkitest/DOCX/OPALY.docx -> F:/Desktop/rozne/wielkitest/DOCX/DOCX/OPALY.docx
+----------
+

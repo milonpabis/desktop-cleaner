@@ -1,7 +1,7 @@
 from UI.MainWindow import Ui_MainWindow
 from UI.RemoveConfirm import Ui_Dialog
 from PySide6.QtWidgets import QMainWindow, QApplication, QFileSystemModel, QDialog
-from PySide6.QtCore import QDir
+from PySide6.QtCore import QDir, QThread, Signal
 from PySide6.QtGui import QIcon
 import winreg
 from assets.DesktopCleaner import DesktopCleaner
@@ -19,12 +19,13 @@ class View(QMainWindow, Ui_MainWindow):
         self.setWindowIcon(QIcon("UI/images/ico.jpg"))
         self.setup_tree(self.treeView)
         self.treeView.clicked.connect(self.show_selected)
-        self.btUndo.clicked.connect(self.undo_pressed)
-        self.btOrganize.clicked.connect(self.organize_pressed)
-        self.btRemove.clicked.connect(self.remove_pressed)
-        self.btRemoveAll.clicked.connect(self.remove_all_pressed)
+        self.btUndo.clicked.connect(lambda: self.startProcess(self.undo_pressed))
+        self.btOrganize.clicked.connect(lambda: self.startProcess(self.organize_pressed))
+        self.btRemove.clicked.connect(lambda: self.startProcess(self.remove_pressed))
+        self.btRemoveAll.clicked.connect(lambda: self.startProcess(self.remove_all_pressed))
         self.expand_tree()                      # setting the desktop as the selected one
         
+        self.process = None
 
 
     def setup_tree(self, view, path=""):        # filling the tree with system files
@@ -76,6 +77,12 @@ class View(QMainWindow, Ui_MainWindow):
         dialog.exec()
         if dialog.returnValue:
             self.dCleaner.remove_all()
+
+
+    def startProcess(self, func, *args):
+        self.process = Process(func, *args)
+        self.process.finished.connect(lambda: print("Process finished"))
+        self.process.start()
         
 
 
@@ -109,3 +116,17 @@ def get_desktop_path():
     finally:
         winreg.CloseKey(key)
     return None
+
+
+
+class Process(QThread):
+    finished = Signal()
+
+    def __init__(self, func, *args):
+        super().__init__()
+        self.func = func
+        self.args = args
+
+    def run(self):
+        self.func(*self.args)
+        self.finished.emit()

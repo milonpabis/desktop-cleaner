@@ -1,0 +1,472 @@
+18:18:22:
+----------
+REMOVED: F:/Desktop/rozne/wielkitest/kita/TIKTOK/www.tiktok
+REMOVED: F:/Desktop/rozne/wielkitest/TIKTOK/TIKTOK/TIKTOK/www.tiktok
+REMOVED: F:/Desktop/rozne/wielkitest/kita/WOWOWOW/TIKTOK/TIKTOK/www.tiktok
+----------
+
+18:18:36:
+----------
+UNDO OPERATIONS: 
+REMOVED: F:/Desktop/rozne/wielkitest/kita/TIKTOK/www.tiktok
+REMOVED: F:/Desktop/rozne/wielkitest/TIKTOK/TIKTOK/TIKTOK/www.tiktok
+REMOVED: F:/Desktop/rozne/wielkitest/kita/WOWOWOW/TIKTOK/TIKTOK/www.tiktok
+----------
+
+18:19:16:
+----------
+REMOVED: F:/Desktop/rozne/JPG/aa.jpg
+REMOVED: F:/Desktop/rozne/JPG/benchpress.jpg
+REMOVED: F:/Desktop/rozne/JPG/bg_test.jpg
+REMOVED: F:/Desktop/rozne/JPG/bg_test1.jpg
+REMOVED: F:/Desktop/rozne/JPG/bg_test2.jpg
+REMOVED: F:/Desktop/rozne/JPG/bird.jpg
+REMOVED: F:/Desktop/rozne/JPG/chooseimage.jpg
+REMOVED: F:/Desktop/rozne/JPG/cylinder.jpg
+REMOVED: F:/Desktop/rozne/JPG/cylinderobliczenia.jpg
+REMOVED: F:/Desktop/rozne/JPG/dbpress.jpg
+REMOVED: F:/Desktop/rozne/JPG/declinebp.jpg
+REMOVED: F:/Desktop/rozne/JPG/erd.jpg
+REMOVED: F:/Desktop/rozne/JPG/falppy.jpg
+REMOVED: F:/Desktop/rozne/JPG/female_id.jpg
+REMOVED: F:/Desktop/rozne/JPG/hammer.jpg
+REMOVED: F:/Desktop/rozne/JPG/id.jpg
+REMOVED: F:/Desktop/rozne/JPG/inclineb.jpg
+REMOVED: F:/Desktop/rozne/JPG/kuawrkawr.jpg
+REMOVED: F:/Desktop/rozne/JPG/kurwakurwa.jpg
+REMOVED: F:/Desktop/rozne/JPG/libusza.jpg
+REMOVED: F:/Desktop/rozne/JPG/linieplaski.jpg
+REMOVED: F:/Desktop/rozne/JPG/lower.jpg
+REMOVED: F:/Desktop/rozne/JPG/male_id.jpg
+REMOVED: F:/Desktop/rozne/JPG/miloszp.jpg
+REMOVED: F:/Desktop/rozne/JPG/mi³osz_borys_pabis.jpg
+REMOVED: F:/Desktop/rozne/JPG/plaski.jpg
+REMOVED: F:/Desktop/rozne/JPG/plaskiobliczenia.jpg
+REMOVED: F:/Desktop/rozne/JPG/question.jpg
+REMOVED: F:/Desktop/rozne/JPG/reka.jpg
+REMOVED: F:/Desktop/rozne/JPG/template.jpg
+REMOVED: F:/Desktop/rozne/JPG/test123.jpg
+REMOVED: F:/Desktop/rozne/JPG/testimage.jpg
+REMOVED: F:/Desktop/rozne/JPG/upper.jpg
+REMOVED: F:/Desktop/rozne/JPG/wt.jpg
+----------
+
+18:19:23:
+----------
+UNDO OPERATIONS: 
+REMOVED: F:/Desktop/rozne/JPG/aa.jpg
+REMOVED: F:/Desktop/rozne/JPG/benchpress.jpg
+REMOVED: F:/Desktop/rozne/JPG/bg_test.jpg
+REMOVED: F:/Desktop/rozne/JPG/bg_test1.jpg
+REMOVED: F:/Desktop/rozne/JPG/bg_test2.jpg
+REMOVED: F:/Desktop/rozne/JPG/bird.jpg
+REMOVED: F:/Desktop/rozne/JPG/chooseimage.jpg
+REMOVED: F:/Desktop/rozne/JPG/cylinder.jpg
+REMOVED: F:/Desktop/rozne/JPG/cylinderobliczenia.jpg
+REMOVED: F:/Desktop/rozne/JPG/dbpress.jpg
+REMOVED: F:/Desktop/rozne/JPG/declinebp.jpg
+REMOVED: F:/Desktop/rozne/JPG/erd.jpg
+REMOVED: F:/Desktop/rozne/JPG/falppy.jpg
+REMOVED: F:/Desktop/rozne/JPG/female_id.jpg
+REMOVED: F:/Desktop/rozne/JPG/hammer.jpg
+REMOVED: F:/Desktop/rozne/JPG/id.jpg
+REMOVED: F:/Desktop/rozne/JPG/inclineb.jpg
+REMOVED: F:/Desktop/rozne/JPG/kuawrkawr.jpg
+REMOVED: F:/Desktop/rozne/JPG/kurwakurwa.jpg
+REMOVED: F:/Desktop/rozne/JPG/libusza.jpg
+REMOVED: F:/Desktop/rozne/JPG/linieplaski.jpg
+REMOVED: F:/Desktop/rozne/JPG/lower.jpg
+REMOVED: F:/Desktop/rozne/JPG/male_id.jpg
+REMOVED: F:/Desktop/rozne/JPG/miloszp.jpg
+REMOVED: F:/Desktop/rozne/JPG/mi³osz_borys_pabis.jpg
+REMOVED: F:/Desktop/rozne/JPG/plaski.jpg
+REMOVED: F:/Desktop/rozne/JPG/plaskiobliczenia.jpg
+REMOVED: F:/Desktop/rozne/JPG/question.jpg
+REMOVED: F:/Desktop/rozne/JPG/reka.jpg
+REMOVED: F:/Desktop/rozne/JPG/template.jpg
+REMOVED: F:/Desktop/rozne/JPG/test123.jpg
+REMOVED: F:/Desktop/rozne/JPG/testimage.jpg
+REMOVED: F:/Desktop/rozne/JPG/upper.jpg
+REMOVED: F:/Desktop/rozne/JPG/wt.jpg
+----------
+
+18:21:08:
+----------
+REMOVED: F:/Desktop/rozne/TXT/AGH.txt
+REMOVED: F:/Desktop/rozne/TXT/cw.txt
+REMOVED: F:/Desktop/rozne/TXT/ds.txt
+REMOVED: F:/Desktop/rozne/TXT/fizykatekst.txt
+REMOVED: F:/Desktop/rozne/TXT/ggg.txt
+REMOVED: F:/Desktop/rozne/TXT/git_cm.txt
+REMOVED: F:/Desktop/rozne/TXT/image color analysis with ui.txt
+REMOVED: F:/Desktop/rozne/TXT/Jadlospis.txt
+REMOVED: F:/Desktop/rozne/TXT/names.txt
+REMOVED: F:/Desktop/rozne/TXT/Nowy dokument tekstowy.txt
+REMOVED: F:/Desktop/rozne/TXT/obraz.txt
+REMOVED: F:/Desktop/rozne/TXT/operatory bitowe.txt
+REMOVED: F:/Desktop/rozne/TXT/parfum.txt
+REMOVED: F:/Desktop/rozne/TXT/pyside6.txt
+REMOVED: F:/Desktop/rozne/TXT/python modules.txt
+REMOVED: F:/Desktop/rozne/TXT/sqlcw4.txt
+REMOVED: F:/Desktop/rozne/TXT/ssh.txt
+REMOVED: F:/Desktop/rozne/TXT/strip.txt
+REMOVED: F:/Desktop/rozne/TXT/swasty.txt
+REMOVED: F:/Desktop/rozne/TXT/technikiproj.txt
+REMOVED: F:/Desktop/rozne/TXT/TEKSTTT.txt
+REMOVED: F:/Desktop/rozne/TXT/text.txt
+REMOVED: F:/Desktop/rozne/TXT/todo.txt
+REMOVED: F:/Desktop/rozne/TXT/todo_TI.txt
+REMOVED: F:/Desktop/rozne/TXT/tworzenie tabel.txt
+----------
+
+18:21:12:
+----------
+UNDO OPERATIONS: 
+REMOVED: F:/Desktop/rozne/TXT/AGH.txt
+REMOVED: F:/Desktop/rozne/TXT/cw.txt
+REMOVED: F:/Desktop/rozne/TXT/ds.txt
+REMOVED: F:/Desktop/rozne/TXT/fizykatekst.txt
+REMOVED: F:/Desktop/rozne/TXT/ggg.txt
+REMOVED: F:/Desktop/rozne/TXT/git_cm.txt
+REMOVED: F:/Desktop/rozne/TXT/image color analysis with ui.txt
+REMOVED: F:/Desktop/rozne/TXT/Jadlospis.txt
+REMOVED: F:/Desktop/rozne/TXT/names.txt
+REMOVED: F:/Desktop/rozne/TXT/Nowy dokument tekstowy.txt
+REMOVED: F:/Desktop/rozne/TXT/obraz.txt
+REMOVED: F:/Desktop/rozne/TXT/operatory bitowe.txt
+REMOVED: F:/Desktop/rozne/TXT/parfum.txt
+REMOVED: F:/Desktop/rozne/TXT/pyside6.txt
+REMOVED: F:/Desktop/rozne/TXT/python modules.txt
+REMOVED: F:/Desktop/rozne/TXT/sqlcw4.txt
+REMOVED: F:/Desktop/rozne/TXT/ssh.txt
+REMOVED: F:/Desktop/rozne/TXT/strip.txt
+REMOVED: F:/Desktop/rozne/TXT/swasty.txt
+REMOVED: F:/Desktop/rozne/TXT/technikiproj.txt
+REMOVED: F:/Desktop/rozne/TXT/TEKSTTT.txt
+REMOVED: F:/Desktop/rozne/TXT/text.txt
+REMOVED: F:/Desktop/rozne/TXT/todo.txt
+REMOVED: F:/Desktop/rozne/TXT/todo_TI.txt
+REMOVED: F:/Desktop/rozne/TXT/tworzenie tabel.txt
+----------
+
+18:21:43:
+----------
+REMOVED: F:/Desktop/rozne/PDF/a.pdf
+REMOVED: F:/Desktop/rozne/PDF/bilet_bus.pdf
+REMOVED: F:/Desktop/rozne/PDF/IADz5æw2spr.pdf
+----------
+
+18:21:44:
+----------
+UNDO OPERATIONS: 
+REMOVED: F:/Desktop/rozne/PDF/a.pdf
+REMOVED: F:/Desktop/rozne/PDF/bilet_bus.pdf
+REMOVED: F:/Desktop/rozne/PDF/IADz5æw2spr.pdf
+----------
+
+18:22:14:
+----------
+CREATED: F:/Desktop/rozne/PDF/PDF
+F:/Desktop/rozne/PDF/a.pdf -> F:/Desktop/rozne/PDF/PDF/a.pdf
+F:/Desktop/rozne/PDF/bilet_bus.pdf -> F:/Desktop/rozne/PDF/PDF/bilet_bus.pdf
+F:/Desktop/rozne/PDF/IADz5æw2spr.pdf -> F:/Desktop/rozne/PDF/PDF/IADz5æw2spr.pdf
+----------
+
+18:22:15:
+----------
+UNDO OPERATIONS: 
+CREATED: F:/Desktop/rozne/PDF/PDF
+F:/Desktop/rozne/PDF/a.pdf -> F:/Desktop/rozne/PDF/PDF/a.pdf
+F:/Desktop/rozne/PDF/bilet_bus.pdf -> F:/Desktop/rozne/PDF/PDF/bilet_bus.pdf
+F:/Desktop/rozne/PDF/IADz5æw2spr.pdf -> F:/Desktop/rozne/PDF/PDF/IADz5æw2spr.pdf
+----------
+
+18:23:15:
+----------
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 10 of clubs/card 10 of clubs0.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 10 of clubs/card 10 of clubs10.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 10 of clubs/card 10 of clubs12.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 10 of clubs/card 10 of clubs16.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 10 of clubs/card 10 of clubs4.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 10 of clubs/card 10 of clubs5.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 10 of clubs/card 10 of clubs6.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 10 of clubs/card 10 of clubs8.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 2 of clubs/card 2 of clubs0.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 2 of clubs/card 2 of clubs13.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 2 of clubs/card 2 of clubs15.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 2 of clubs/card 2 of clubs16.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 2 of clubs/card 2 of clubs17.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 2 of clubs/card 2 of clubs19.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 2 of clubs/card 2 of clubs2.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 2 of clubs/card 2 of clubs4.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 2 of clubs/card 2 of clubs5.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 2 of clubs/card 2 of clubs6.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 2 of clubs/card 2 of clubs8.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 2 of clubs/card 2 of clubs9.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 3 of clubs/card 3 of clubs0.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 3 of clubs/card 3 of clubs1.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 3 of clubs/card 3 of clubs10.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 3 of clubs/card 3 of clubs13.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 3 of clubs/card 3 of clubs15.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 3 of clubs/card 3 of clubs2.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 3 of clubs/card 3 of clubs3.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 3 of clubs/card 3 of clubs4.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 3 of clubs/card 3 of clubs7.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 3 of clubs/card 3 of clubs8.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 3 of clubs/card 3 of clubs9.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 4 of clubs/card 4 of clubs0.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 4 of clubs/card 4 of clubs1.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 4 of clubs/card 4 of clubs10.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 4 of clubs/card 4 of clubs11.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 4 of clubs/card 4 of clubs12.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 4 of clubs/card 4 of clubs13.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 4 of clubs/card 4 of clubs14.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 4 of clubs/card 4 of clubs3.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 4 of clubs/card 4 of clubs4.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 4 of clubs/card 4 of clubs6.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 4 of clubs/card 4 of clubs8.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 5 of clubs/card 5 of clubs0.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 5 of clubs/card 5 of clubs10.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 5 of clubs/card 5 of clubs11.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 5 of clubs/card 5 of clubs13.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 5 of clubs/card 5 of clubs14.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 5 of clubs/card 5 of clubs15.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 5 of clubs/card 5 of clubs16.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 5 of clubs/card 5 of clubs19.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 5 of clubs/card 5 of clubs2.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 5 of clubs/card 5 of clubs3.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 5 of clubs/card 5 of clubs4.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 5 of clubs/card 5 of clubs6.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 5 of clubs/card 5 of clubs7.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 5 of clubs/card 5 of clubs8.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 5 of clubs/card 5 of clubs9.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 6 of clubs/card 6 of clubs0.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 6 of clubs/card 6 of clubs1.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 6 of clubs/card 6 of clubs11.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 6 of clubs/card 6 of clubs12.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 6 of clubs/card 6 of clubs14.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 6 of clubs/card 6 of clubs16.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 6 of clubs/card 6 of clubs17.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 6 of clubs/card 6 of clubs18.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 6 of clubs/card 6 of clubs19.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 6 of clubs/card 6 of clubs3.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 6 of clubs/card 6 of clubs7.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 6 of clubs/card 6 of clubs8.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 6 of clubs/card 6 of clubs9.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 7 of clubs/card 7 of clubs0.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 7 of clubs/card 7 of clubs1.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 7 of clubs/card 7 of clubs10.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 7 of clubs/card 7 of clubs11.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 7 of clubs/card 7 of clubs15.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 7 of clubs/card 7 of clubs6.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 7 of clubs/card 7 of clubs9.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 8 of clubs/card 8 of clubs0.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 8 of clubs/card 8 of clubs1.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 8 of clubs/card 8 of clubs10.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 8 of clubs/card 8 of clubs11.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 8 of clubs/card 8 of clubs14.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 8 of clubs/card 8 of clubs16.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 8 of clubs/card 8 of clubs17.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 8 of clubs/card 8 of clubs19.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 8 of clubs/card 8 of clubs3.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 8 of clubs/card 8 of clubs4.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 8 of clubs/card 8 of clubs6.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 8 of clubs/card 8 of clubs7.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 8 of clubs/card 8 of clubs8.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 9 of clubs/card 9 of clubs1.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 9 of clubs/card 9 of clubs13.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 9 of clubs/card 9 of clubs15.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 9 of clubs/card 9 of clubs19.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 9 of clubs/card 9 of clubs2.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 9 of clubs/card 9 of clubs3.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 9 of clubs/card 9 of clubs4.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 9 of clubs/card 9 of clubs6.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 9 of clubs/card 9 of clubs7.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 9 of clubs/card 9 of clubs8.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 9 of clubs/card 9 of clubs9.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card ace of clubs/card ace of clubs0.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card ace of clubs/card ace of clubs1.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card ace of clubs/card ace of clubs15.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card ace of clubs/card ace of clubs18.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card ace of clubs/card ace of clubs2.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card ace of clubs/card ace of clubs3.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card ace of clubs/card ace of clubs5.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card ace of clubs/card ace of clubs6.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card ace of clubs/card ace of clubs7.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card jack of clubs/card jack of clubs1.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card jack of clubs/card jack of clubs15.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card jack of clubs/card jack of clubs16.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card jack of clubs/card jack of clubs2.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card jack of clubs/card jack of clubs3.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card jack of clubs/card jack of clubs4.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card jack of clubs/card jack of clubs7.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card king of clubs/card king of clubs1.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card king of clubs/card king of clubs11.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card king of clubs/card king of clubs13.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card king of clubs/card king of clubs14.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card king of clubs/card king of clubs15.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card king of clubs/card king of clubs17.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card king of clubs/card king of clubs18.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card king of clubs/card king of clubs19.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card king of clubs/card king of clubs2.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card king of clubs/card king of clubs7.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card king of clubs/card king of clubs8.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card king of clubs/card king of clubs9.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card queen of clubs/card queen of clubs11.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card queen of clubs/card queen of clubs12.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card queen of clubs/card queen of clubs13.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card queen of clubs/card queen of clubs15.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card queen of clubs/card queen of clubs16.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card queen of clubs/card queen of clubs18.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card queen of clubs/card queen of clubs19.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card queen of clubs/card queen of clubs2.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card queen of clubs/card queen of clubs3.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card queen of clubs/card queen of clubs6.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card queen of clubs/card queen of clubs7.png
+----------
+
+18:23:18:
+----------
+UNDO OPERATIONS: 
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 10 of clubs/card 10 of clubs0.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 10 of clubs/card 10 of clubs10.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 10 of clubs/card 10 of clubs12.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 10 of clubs/card 10 of clubs16.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 10 of clubs/card 10 of clubs4.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 10 of clubs/card 10 of clubs5.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 10 of clubs/card 10 of clubs6.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 10 of clubs/card 10 of clubs8.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 2 of clubs/card 2 of clubs0.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 2 of clubs/card 2 of clubs13.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 2 of clubs/card 2 of clubs15.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 2 of clubs/card 2 of clubs16.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 2 of clubs/card 2 of clubs17.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 2 of clubs/card 2 of clubs19.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 2 of clubs/card 2 of clubs2.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 2 of clubs/card 2 of clubs4.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 2 of clubs/card 2 of clubs5.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 2 of clubs/card 2 of clubs6.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 2 of clubs/card 2 of clubs8.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 2 of clubs/card 2 of clubs9.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 3 of clubs/card 3 of clubs0.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 3 of clubs/card 3 of clubs1.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 3 of clubs/card 3 of clubs10.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 3 of clubs/card 3 of clubs13.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 3 of clubs/card 3 of clubs15.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 3 of clubs/card 3 of clubs2.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 3 of clubs/card 3 of clubs3.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 3 of clubs/card 3 of clubs4.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 3 of clubs/card 3 of clubs7.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 3 of clubs/card 3 of clubs8.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 3 of clubs/card 3 of clubs9.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 4 of clubs/card 4 of clubs0.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 4 of clubs/card 4 of clubs1.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 4 of clubs/card 4 of clubs10.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 4 of clubs/card 4 of clubs11.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 4 of clubs/card 4 of clubs12.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 4 of clubs/card 4 of clubs13.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 4 of clubs/card 4 of clubs14.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 4 of clubs/card 4 of clubs3.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 4 of clubs/card 4 of clubs4.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 4 of clubs/card 4 of clubs6.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 4 of clubs/card 4 of clubs8.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 5 of clubs/card 5 of clubs0.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 5 of clubs/card 5 of clubs10.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 5 of clubs/card 5 of clubs11.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 5 of clubs/card 5 of clubs13.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 5 of clubs/card 5 of clubs14.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 5 of clubs/card 5 of clubs15.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 5 of clubs/card 5 of clubs16.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 5 of clubs/card 5 of clubs19.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 5 of clubs/card 5 of clubs2.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 5 of clubs/card 5 of clubs3.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 5 of clubs/card 5 of clubs4.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 5 of clubs/card 5 of clubs6.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 5 of clubs/card 5 of clubs7.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 5 of clubs/card 5 of clubs8.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 5 of clubs/card 5 of clubs9.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 6 of clubs/card 6 of clubs0.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 6 of clubs/card 6 of clubs1.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 6 of clubs/card 6 of clubs11.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 6 of clubs/card 6 of clubs12.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 6 of clubs/card 6 of clubs14.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 6 of clubs/card 6 of clubs16.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 6 of clubs/card 6 of clubs17.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 6 of clubs/card 6 of clubs18.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 6 of clubs/card 6 of clubs19.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 6 of clubs/card 6 of clubs3.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 6 of clubs/card 6 of clubs7.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 6 of clubs/card 6 of clubs8.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 6 of clubs/card 6 of clubs9.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 7 of clubs/card 7 of clubs0.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 7 of clubs/card 7 of clubs1.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 7 of clubs/card 7 of clubs10.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 7 of clubs/card 7 of clubs11.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 7 of clubs/card 7 of clubs15.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 7 of clubs/card 7 of clubs6.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 7 of clubs/card 7 of clubs9.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 8 of clubs/card 8 of clubs0.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 8 of clubs/card 8 of clubs1.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 8 of clubs/card 8 of clubs10.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 8 of clubs/card 8 of clubs11.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 8 of clubs/card 8 of clubs14.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 8 of clubs/card 8 of clubs16.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 8 of clubs/card 8 of clubs17.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 8 of clubs/card 8 of clubs19.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 8 of clubs/card 8 of clubs3.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 8 of clubs/card 8 of clubs4.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 8 of clubs/card 8 of clubs6.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 8 of clubs/card 8 of clubs7.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 8 of clubs/card 8 of clubs8.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 9 of clubs/card 9 of clubs1.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 9 of clubs/card 9 of clubs13.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 9 of clubs/card 9 of clubs15.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 9 of clubs/card 9 of clubs19.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 9 of clubs/card 9 of clubs2.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 9 of clubs/card 9 of clubs3.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 9 of clubs/card 9 of clubs4.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 9 of clubs/card 9 of clubs6.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 9 of clubs/card 9 of clubs7.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 9 of clubs/card 9 of clubs8.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card 9 of clubs/card 9 of clubs9.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card ace of clubs/card ace of clubs0.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card ace of clubs/card ace of clubs1.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card ace of clubs/card ace of clubs15.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card ace of clubs/card ace of clubs18.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card ace of clubs/card ace of clubs2.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card ace of clubs/card ace of clubs3.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card ace of clubs/card ace of clubs5.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card ace of clubs/card ace of clubs6.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card ace of clubs/card ace of clubs7.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card jack of clubs/card jack of clubs1.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card jack of clubs/card jack of clubs15.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card jack of clubs/card jack of clubs16.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card jack of clubs/card jack of clubs2.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card jack of clubs/card jack of clubs3.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card jack of clubs/card jack of clubs4.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card jack of clubs/card jack of clubs7.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card king of clubs/card king of clubs1.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card king of clubs/card king of clubs11.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card king of clubs/card king of clubs13.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card king of clubs/card king of clubs14.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card king of clubs/card king of clubs15.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card king of clubs/card king of clubs17.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card king of clubs/card king of clubs18.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card king of clubs/card king of clubs19.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card king of clubs/card king of clubs2.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card king of clubs/card king of clubs7.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card king of clubs/card king of clubs8.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card king of clubs/card king of clubs9.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card queen of clubs/card queen of clubs11.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card queen of clubs/card queen of clubs12.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card queen of clubs/card queen of clubs13.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card queen of clubs/card queen of clubs15.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card queen of clubs/card queen of clubs16.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card queen of clubs/card queen of clubs18.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card queen of clubs/card queen of clubs19.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card queen of clubs/card queen of clubs2.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card queen of clubs/card queen of clubs3.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card queen of clubs/card queen of clubs6.png
+REMOVED: F:/Desktop/rozne/cards/best/clubs/card queen of clubs/card queen of clubs7.png
+----------
+

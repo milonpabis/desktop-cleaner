@@ -13,4 +13,4 @@ if __name__ == "__main__":
         print(dt.datetime.now().strftime('%Y-%m-%d'))
 
 # TODO:
-    # asynchronize processes
+    # try to increase the speed of go_back
